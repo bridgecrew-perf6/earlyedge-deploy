@@ -1,0 +1,288 @@
+{
+    "domElements": {
+        "dinoSegments": {
+            "looking_at_table_and_tongue_licking": [0, 46],
+            "eating": [47, 117],
+            "sad": [118, 141]
+        },
+        "plate": {
+            "lottie": "plate_animation",
+            "segments": {
+                "in": [0, 25],
+                "pause": [25, 35],
+                "out": [35, 60]
+            }
+        },
+        "foods": {
+            "healthyFoodDom": {
+                "divObj": "healthyFood",
+                "class": "healthyFood",
+                "dataIndex": "healthy"
+            },
+            "junkFoodDom": {
+                "divObj": "junkFood",
+                "class": "junkFood",
+                "dataIndex": "junk"
+            },
+            "helthyFoods": [{
+                    "image": "Cauliflower",
+                    "name": "Cauliflower"
+                },
+                {
+                    "image": "Orange",
+                    "name": "Orange"
+                },
+                {
+                    "image": "Banana",
+                    "name": "Bananas"
+                },
+                {
+                    "image": "Apple",
+                    "name": "Apple"
+                },
+                {
+                    "image": "Papaya",
+                    "name": "Papaya"
+                },
+                {
+                    "image": "Beetroot",
+                    "name": "Beetroot"
+                },
+                {
+                    "image": "Peas",
+                    "name": "Peas"
+                },
+                {
+                    "image": "Dal",
+                    "name": "Dal Rice"
+                },
+                {
+                    "image": "Spinach",
+                    "name": "Spinach"
+                },
+                {
+                    "image": "Strawberry",
+                    "name": "Strawberries"
+                },
+                {
+                    "image": "Carrot",
+                    "name": "Carrots"
+                },
+                {
+                    "image": "Cashewnuts",
+                    "name": "Cashewnuts"
+                },
+                {
+                    "image": "Rotis",
+                    "name": "Rotis"
+                },
+                {
+                    "image": "Tomato",
+                    "name": "Tomato"
+                },
+                {
+                    "image": "Pineapple",
+                    "name": "Pineapple"
+                },
+                {
+                    "image": "Curd",
+                    "name": "Curd"
+                },
+                {
+                    "image": "Mango",
+                    "name": "Mango"
+                },
+                {
+                    "image": "Grapes",
+                    "name": "Grapes"
+                }
+            ],
+            "junkFoods": [{
+                    "image": "Soft_drink",
+                    "name": "soft drink"
+                },
+                {
+                    "image": "Chips",
+                    "name": "Chips"
+                },
+                {
+                    "image": "Burger",
+                    "name": "Burger"
+                },
+                {
+                    "image": "Pizza",
+                    "name": "Pizza"
+                },
+                {
+                    "image": "Cake",
+                    "name": "Cake"
+                },
+                {
+                    "image": "Doughnuts",
+                    "name": "Doughnuts"
+                },
+                {
+                    "image": "Icecream",
+                    "name": "Ice Cream"
+                },
+                {
+                    "image": "Sweets",
+                    "name": "Sweets"
+                },
+                {
+                    "image": "Cupcake",
+                    "name": "Cupcake"
+                },
+                {
+                    "image": "Lollipop",
+                    "name": "Lollipops"
+                },
+                {
+                    "image": "Chocolate",
+                    "name": "Chocolates"
+                },
+                {
+                    "image": "ChewingGum",
+                    "name": "Chewing Gums"
+                },
+                {
+                    "image": "Samosas",
+                    "name": "Samosas"
+                }
+
+            ]
+        },
+        "starProgress": {
+            "empty_star_img": "starGray",
+            "fill_star_img": "starYellow",
+            "starBg": "starBackground",
+            "starDiv": [{
+                    "divObj": "star1",
+                    "class": "star-image1"
+                },
+                {
+                    "divObj": "star2",
+                    "class": "star-image2"
+                },
+                {
+                    "divObj": "star3",
+                    "class": "star-image3"
+                },
+                {
+                    "divObj": "star4",
+                    "class": "star-image4"
+                },
+                {
+                    "divObj": "star5",
+                    "class": "star-image5"
+                },
+                {
+                    "divObj": "star6",
+                    "class": "star-image6"
+                }
+            ]
+
+        },
+        "animals": {
+            "divObj": "animal",
+            "lottie": "dinoEating",
+            "lottieHolder": "dinoEating",
+            "class": "dino-head",
+            "dataIndex": "healthy",
+            "dinoMouth": "Dinomouth",
+            "dinoMouthClass": "dino-mouth"
+        },
+        "background": {
+            "image": "junkBackground",
+            "class": "background1"
+        },
+        "plant": {
+            "image": "plant",
+            "class": "plant"
+        },
+        "plates": [{
+                "divObj": "firstPlate",
+                "image": "plate",
+                "class": "plate1",
+                "move": "trans_one"
+            },
+            {
+                "divObj": "secondPlate",
+                "image": "plate",
+                "class": "plate2 ",
+                "move": "trans_two"
+            }
+        ],
+        "standframe1": {
+            "image": "standframe1",
+            "class": "stand-frame1"
+        },
+        "standframe2": {
+            "image": "standframe2",
+            "class": "stand-frame2"
+        },
+        "standText1": {
+            "class": "stand-text1"
+        },
+        "standText2": {
+            "class": "stand-text2"
+        },
+        "table": {
+            "image": "table",
+            "class": "table"
+        },
+        "photoFrames": [{
+                "image": "photoFrame1",
+                "class": "photo1"
+            },
+            {
+                "image": "photoFrame2",
+                "class": "photo2"
+            }
+        ],
+        "skipButton": {
+            "buttonText": "Skip",
+            "class": "shellButtons"
+        },
+        "feedBackScreen": {
+            "lottieHolder": "star",
+            "lottie": "GameEndHappy",
+            "ribbonLottieHolder": "ribbonLottiediv",
+            "ribbonLottie": "ribbonLottie",
+            "buttonHolder": "feedBackButton",
+            "buttonImage": "nextRecapButton",
+            "button_class": "recapButton"
+        },
+        "recapScreen": {
+            "bgImage": "dinoRecapBg",
+            "bgClass": "background1",
+            "recapPlate": "recapPlate",
+            "recapPlateClass": "recap-plate",
+            "recapFood": "recapFood1",
+            "recapFoodClass": "dino-recap-food",
+            "recapTextClass": "recap-text",
+            "nextButton": "nextButtonGreen",
+            "nextButtonClass": "dino-recap-next",
+            "previousButton": "previousButtonGreen",
+            "previousButtonClass": "dino-recap-previous"
+        }
+
+    },
+    "introAnimation": "Intro",
+    "introBackground": {
+        "background_image": "dinoIntroBG",
+        "class": "background1"
+    },
+    "introScreen": {
+        "buttonImage": "playBTN",
+        "play_button_class": "play-btn"
+    },
+    "nextButton": {
+        "buttonImage": "nextButton",
+        "button_class": "next-btn"
+    },
+    "transition": "transition",
+    "transitionClass": "transition",
+    "order_type": "random",
+    "minimumTry": 6
+}

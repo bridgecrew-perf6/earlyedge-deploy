@@ -1,0 +1,86 @@
+{
+	"domElements": {
+		"rocketWithBackGround": {
+			"divObj": "rocketBackGround",
+			"image_src": "photoFrame1",
+			"class": "rocket",
+			"lottie": "rocketWithBackGround",
+			"lottieHolder": "rocketHolder",
+			"blastLottie": "meteorBlast",
+			"blastLottieHolder": "rocketBlastHolder"
+		},
+		"feedback": {
+			"lottie": "feedBackStar",
+			"lottieHolder": "feedBackHolder"
+		},
+		"meteor": {
+			"divObj": "meteor",
+			"class": "meteor",
+			"lottie": "meteorAnimation",
+			"lottieHolder": "meteorHolder",
+			"lottie_blast": "meteorBlast",
+			"lottieBlastHolder": "meteorBlastHolder",
+			"positions": {
+				"maxDistance": 900,
+				"values": [
+					{
+						"x": 1210,
+						"y": 460
+					},
+					{
+						"x": 1280,
+						"y": 630
+					},
+					{
+						"x": 1090,
+						"y": 550
+					},
+					{
+						"x": 1400,
+						"y": 570
+					},
+					{
+						"x": 1370,
+						"y": 410
+					},
+					{
+						"x": 1010,
+						"y": 400
+					},
+					{
+						"x": 1090,
+						"y": 290
+					},
+					{
+						"x": 1270,
+						"y": 290
+					},
+					{
+						"x": 1400,
+						"y": 150
+					}
+				]
+			}
+		}
+	},
+	"possibleCombinations": {
+		"2": 1,
+		"3": 1,
+		"4": 1,
+		"5": 2,
+		"6": 2,
+		"7": 3,
+		"8": 3,
+		"9": 4,
+		"10": 4
+	},
+	"introScreen": {
+		"background": "launchScreen",
+		"launchText": "launchText",
+		"buttonImage": "playButton",
+		"play_button_class": "play-btn"
+	},
+	"container": {
+		"class": "background"
+	}
+}

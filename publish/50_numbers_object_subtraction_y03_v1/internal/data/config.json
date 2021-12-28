@@ -1,0 +1,80 @@
+{
+  "domElements": {
+    "intro": {
+      "introBackground": {
+        "background_image": "titleScreen",
+        "class": "background1",
+        "buttonImage": "playButton",
+        "play_button_class": "intro-play-btn vendorPlayerButtonLocal"
+      }
+    },"feedBackScreen": {
+      "lottieHolder": "star",
+      "lottie": "GameEndHappy",
+      "ribbonLottieHolder": "ribbonLottiediv",
+      "ribbonLottie": "ribbonLottie"
+  },
+    "activityScreen": {
+      
+      "penguins": [
+        {
+          "id": "1",
+          "path": "Penguin1",
+          "idleFrame": [0, 100],
+          "jumpFrame": [100, 130]
+        },
+        {
+          "id": "2",
+          "path": "Penguin2",
+          "idleFrame": [0, 100],
+          "jumpFrame": [100, 130]
+        },
+        {
+          "id": "3",
+          "path": "Penguin3",
+          "idleFrame": [0, 100],
+          "jumpFrame": [100, 130]
+        },
+        {
+          "id": "4",
+          "path": "Penguin4",
+          "idleFrame": [0, 100],
+          "jumpFrame": [100, 130]
+        }
+      ],
+      "icebergLocation": [
+        {
+          "top": "560px",
+          "left": "800px"
+        },
+        {
+          "top": "580px",
+          "left": "900px"
+        },
+        {
+          "top": "600px",
+          "left": "1000px"
+        },
+        {
+          "top": "580px",
+          "left": "1100px"
+        },
+        {
+          "top": "550px",
+          "left": "1200px"
+        },
+        {
+          "top": "570px",
+          "left": "1300px"
+        },
+        {
+          "top": "560px",
+          "left": "1400px"
+        },
+        {
+          "top": "510px",
+          "left": "1000px"
+        }
+      ]
+    }
+  }
+}

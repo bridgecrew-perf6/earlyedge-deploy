@@ -1,0 +1,171 @@
+{
+    "domElements": {
+        "intro": {
+            "introBackground": {
+                "background_image": "titleScreen",
+                "class": "background1",
+                "buttonImage": "playButton",
+                "play_button_class": "intro-play-btn vendorPlayerButtonLocal"
+            },
+            "introLottie": "introLottie"
+        },
+        "activityScreen": {
+            "background": {
+                "lottie": "Full_Comp",
+                "class": "full-comp",
+                "characterLottie": "WalkCycle"
+            },
+            "selectionScreen": {
+                "background": "selection_bg",
+                "bgclass": "background1",
+                "rangeTextClass": "select-range-title",
+                "rangeText": "Select a number range.",
+                "letterWrapper": "letter-wrapper",
+                "letterTextBlock": "letter-text-block",
+                "letterTextImage": "selectionNumberBg",
+                "options": [{
+                    "range": "1-20",
+                    "min": 1,
+                    "max": 20
+                }, {
+                    "range": "21-50",
+                    "min": 21,
+                    "max": 49
+                }],
+                "nextButton": {
+                    "image": "nextButton",
+                    "class": "selection-play-btn vendorPlayerButtonLocal"
+                }
+            },
+            "star": {
+                "mainClass": "star-wrapper",
+                "bgImage": "starBackground",
+                "bgImageClass": "star-background",
+                "defaultImage": "starGray",
+                "completeImage": "starYellow",
+                "starCount": 5
+            },
+            "full_comp_segments": {
+                "walk_in": [0, 145],
+                "standing": [144, 311],
+                "walk_resume": [310, 453],
+                "walk_idle": [180, 276],
+                "handDown": [278, 310],
+
+                "character_walk_in": [0, 277],
+                "character_standing": [144, 311],
+                "character_walk_resume": [314, 453],
+                "character_walk_idle": [180, 276],
+                "character_handDown": [278, 310],
+                "character_walk_resume_game_end": [310, 453]
+            },
+            "numberIDs": {
+                "characterNumberID": "#text",
+                "basketNumberID": "#cart_text"
+            },
+            "eventDiv": {
+                "box": [{
+                        "class": "box1",
+                        "boxID": "#big_box_2",
+                        "jumpSegments": [480, 503]
+                    },
+                    {
+                        "class": "box2",
+                        "boxID": "#big_box_1",
+                        "jumpSegments": [455, 479]
+                    },
+                    {
+                        "class": "box3",
+                        "boxID": "#big_box_4",
+                        "jumpSegments": [528, 551]
+                    },
+                    {
+                        "class": "box4",
+                        "boxID": "#big_box_3",
+                        "jumpSegments": [504, 527]
+                    }
+                ],
+                "cake": [{
+                        "class": "cake1",
+                        "cakeID": "#small_cake_9",
+                        "jumpSegments": [743, 767]
+                    },
+                    {
+                        "class": "cake2",
+                        "cakeID": "#small_cake_8",
+                        "jumpSegments": [719, 743]
+                    },
+                    {
+                        "class": "cake3",
+                        "cakeID": "#small_cake_7",
+                        "jumpSegments": [695, 719]
+                    },
+                    {
+                        "class": "cake4",
+                        "cakeID": "#small_cake_6",
+                        "jumpSegments": [671, 695]
+                    },
+                    {
+                        "class": "cake5",
+                        "cakeID": "#small_cake_5",
+                        "jumpSegments": [647, 671]
+                    },
+                    {
+                        "class": "cake6",
+                        "cakeID": "#small_cake_4",
+                        "jumpSegments": [623, 647]
+                    },
+                    {
+                        "class": "cake7",
+                        "cakeID": "#small_cake_3",
+                        "jumpSegments": [599, 623]
+                    },
+                    {
+                        "class": "cake8",
+                        "cakeID": "#small_cake_2",
+                        "jumpSegments": [575, 599]
+                    },
+                    {
+                        "class": "cake9",
+                        "cakeID": "#small_cake_1",
+                        "jumpSegments": [552, 575]
+                    }
+                ]
+            }
+        },
+        "pastries": [{
+                "cakeImage": "cake1",
+                "boxImage": "box1"
+            },
+            {
+                "cakeImage": "cake2",
+                "boxImage": "box2"
+            },
+            {
+                "cakeImage": "cake3",
+                "boxImage": "box3"
+            },
+            {
+                "cakeImage": "cake4",
+                "boxImage": "box4"
+            },
+            {
+                "cakeImage": "cake5",
+                "boxImage": "box5"
+            }
+        ],
+        "feedBackScreen": {
+            "lottieHolder": "star",
+            "lottie": "GameEndHappy",
+            "ribbonLottieHolder": "ribbonLottiediv",
+            "ribbonLottie": "ribbonLottie"
+        }
+    },
+    "numbers": {
+        "min": 21,
+        "max": 30
+    },
+    "transition": "transition",
+    "transitionClass": "transition",
+    "minimumTry": 5
+}

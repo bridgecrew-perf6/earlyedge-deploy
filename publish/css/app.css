@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 30px;
+    font: 14px arial;
+}
+
+a {
+    /* text-decoration: none;
+    color: inherit; */
+    display: block;
+    margin: 10px;
+}
+
+.buildhead {
+    font-weight: 800;
+}
+
+.buildbody {
+    margin: 10px 0;
+    padding: 10px 10px;
+    background-color: #c8edff;
+}

@@ -1,0 +1,351 @@
+{
+  "domElements": {
+    "intro": {
+      "introBackground": {
+        "background_image": "titleScreen",
+        "class": "background1",
+        "buttonImage": "playButton",
+        "play_button_class": "intro-play-btn vendorPlayerButtonLocal",
+        "introLottie": "introLottie"
+      }
+    },
+    "activityScreen": {
+      "background": {
+        "lottie": "backgroundLottie",
+        "class": "background1"
+      },
+      "trees": {
+        "leftTree": "leftTree",
+        "leftTreeClass": "tree-left",
+        "rightTree": "rightTree",
+        "rightTreeClass": "tree-right"
+      },
+      "numbers": {
+        "leftNumberClass": "text-box1",
+        "rightNumberClass": "text-box2"
+      },
+      "trays": {
+        "leftTray": "tray",
+        "leftTrayClass": "tray1",
+        "rightTray": "tray",
+        "rightTrayClass": "tray2"
+      },
+      "equal": [
+        {
+          "lottie": "DuckEqualToL",
+          "eventDivClass": "crocodile-event-div1",
+          "index": 0,
+          "segments": {
+            "walkIn": [
+              0,
+              147
+            ],
+            "idle": [
+              150,
+              206
+            ],
+            "highlight": [
+              478,
+             524
+            ],
+            "jump": [
+              206,
+              230
+            ],
+            "eating": [
+              230,
+              357
+            ],
+            "fall": [
+              528,
+              551
+            ],
+            "wrong": [
+              552,
+              618
+            ],
+            "second_highlight": [
+              498,
+             527
+            ],
+            "transitiom":[
+              460,
+              499
+            ]
+          }
+        },
+        {
+          "lottie": "DuckEqualToR",
+          "eventDivClass": "crocodile-event-div2",
+          "index": 1,
+          "segments": {
+            "walkIn": [
+              0,
+              147
+            ],
+            "idle": [
+              150,
+              206
+            ],
+            "highlight": [
+              478,
+             524
+            ],
+            "jump": [
+              206,
+              230
+            ],
+            "eating": [
+              230,
+              357
+            ],
+            "fall": [
+              528,
+              551
+            ],
+            "wrong": [
+              552,
+              618
+            ],
+            "second_highlight": [
+              498,
+             527
+            ],
+            "transitiom":[
+              460,
+              499
+            ]
+          }
+        }
+      ],
+      "greater": [
+        {
+          "lottie": "DuckGreaterThanLottieToL",
+          "eventDivClass": "crocodile-event-div1",
+          "index": 0,
+          "segments": {
+            "walkIn": [
+              0,
+              147
+            ],
+            "idle": [
+              150,
+              207
+            ],
+            "highlight": [
+              501,
+              547
+            ],
+            "jump": [
+              207,
+              231
+            ],
+            "eating": [
+              231,
+              368
+            ],
+            "fall": [
+              548,
+              572
+            ],
+            "wrong": [
+              572,
+              683
+            ],
+            "second_highlight": [
+              515,
+              546
+            ],
+            "transitiom":[
+              475,
+              505
+            ]
+          }
+        },
+        {
+          "eventDivClass": "crocodile-event-div2",
+          "lottie": "DuckGreaterThanLottieToR",
+          "index": 1,
+          "segments": {
+            "walkIn": [
+              0,
+              147
+            ],
+            "idle": [
+              150,
+              207
+            ],
+            "highlight": [
+              501,
+              547
+            ],
+            "jump": [
+              207,
+              231
+            ],
+            "eating": [
+              231,
+              368
+            ],
+            "fall": [
+              548,
+              570
+            ],
+            "wrong": [
+              572,
+              683
+            ],
+            "second_highlight": [
+              515,
+              546
+            ],
+            "transitiom":[
+              475,
+              505
+            ]
+          }
+        }
+      ],
+      "lesser": [
+        {
+          "eventDivClass": "crocodile-event-div1",
+          "lottie": "DuckLessThanLottieToL",
+          "index": 0,
+          "segments": {
+            "walkIn": [
+              0,
+              147
+            ],
+            "idle": [
+              150,
+              207
+            ],
+            "highlight": [
+              501,
+              547
+            ],
+            "jump": [
+              207,
+              231
+            ],
+            "eating": [
+              231,
+              368
+            ],
+            "fall": [
+              548,
+              570
+            ],
+            "wrong": [
+              572,
+              683
+            ],
+            "second_highlight": [
+              515,
+              546
+            ],
+            "transitiom":[
+              475,
+              505
+            ]
+          }
+        },
+        {
+          "eventDivClass": "crocodile-event-div2",
+          "lottie": "DuckLessThanLottieToR",
+          "index": 1,
+          "segments": {
+            "walkIn": [
+              0,
+              147
+            ],
+            "idle": [
+              150,
+              207
+            ],
+            "highlight": [
+              501,
+              547
+            ],
+            "jump": [
+              207,
+              231
+            ],
+            "eating": [
+              231,
+              368
+            ],
+            "fall": [
+              548,
+              572
+            ],
+            "wrong": [
+              572,
+              683
+            ],
+            "second_highlight": [
+              515,
+              546
+            ],
+            "transitiom":[
+              475,
+              505
+            ]
+          }
+        }
+      ],
+      "tool": {
+        "image": "tool",
+        "class": "tool"
+      },
+      "star": {
+        "mainClass": "star-wrapper",
+        "bgImage": "starBackground",
+        "bgImageClass": "star-background",
+        "defaultImage": "starGray",
+        "completeImage": "starYellow",
+        "starCount": 5
+      },
+      "selectRange": {
+        "numberWrapperClass": "letter-wrapper",
+        "numberTextBlockClass": "letter-text-block",
+        "headingTextClass": "select-range-title",
+        "headingText": "Select a number range.",
+        "selectBackgroundImage": "numberSelectionScreen",
+        "backgroundClass": "background1",
+        "nextButton": "nextButton",
+        "nextButtonClass": "selection-play-btn vendorPlayerButtonLocal",
+        "element": [
+          {
+            "text": "1 - 10",
+            "index": 0,
+            "min": 1,
+            "max": 10
+          },
+          {
+            "text": "11 - 20",
+            "index": 1,
+            "min": 11,
+            "max": 20
+          }
+        ]
+      }
+    },
+    "feedBackScreen": {
+      "lottieHolder": "star",
+      "lottie": "GameEndHappy",
+      "ribbonLottieHolder": "ribbonLottiediv",
+      "ribbonLottie": "ribbonLottie"
+    }
+  },
+  "numbers": {
+    "min": 1,
+    "max": 100
+  },
+  "gameType": [
+    "equal"
+  ],
+  "transition": "transition",
+  "transitionClass": "transition",
+  "minimumTry": 5
+}

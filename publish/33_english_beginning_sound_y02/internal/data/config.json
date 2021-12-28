@@ -1,0 +1,294 @@
+{
+    "domElements": {
+        "intro": {
+            "introBackground": {
+                "background_image": "titleScreen",
+                "class": "background1",
+                "buttonImage": "playButton",
+                "play_button_class": "intro-play-btn vendorPlayerButtonLocal"
+            }
+        },
+        "activityScreen": {
+            "background": {
+                "image": "backgroundImage",
+                "class": "background1"
+            },
+            "frame": {
+                "lottie": "frameLottie",
+                "segments": {
+                    "In": [0, 70],
+                    "Stay": [71, 95],
+                    "Out": [96, 193]
+                }
+            },
+            "character": {
+                "lottie": "characterLottie",
+                "characterBlastLottie": "characterBlast",
+                "segmentCommon": {
+                    "appearance": [0, 167],
+                    "idle": [168, 280]
+                },
+                "segments": [{
+                        "correct": [401, 513],
+                        "wrong": [708, 778],
+                        "divObj": "red",
+                        "class": "object1",
+                        "classBlast": "objectBlast1",
+                        "blastLottie": "redBlast_lottie"
+                    },
+                    {
+                        "correct": [514, 635],
+                        "wrong": [779, 849],
+                        "divObj": "green",
+                        "class": "object2",
+                        "classBlast": "objectBlast2",
+                        "blastLottie": "greenBlast_lottie"
+
+                    },
+                    {
+                        "correct": [291, 400],
+                        "wrong": [636, 707],
+                        "divObj": "yellow",
+                        "class": "object3",
+                        "classBlast": "objectBlast3",
+                        "blastLottie": "yellowBlast_lottie"
+                    }
+
+                ]
+            },
+            "alphabets": ["a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "h",
+                "i",
+                "j",
+                "k",
+                "l",
+                "m",
+                "n",
+                "o",
+                "p",
+                "q",
+                "r",
+                "s",
+                "t",
+                "u",
+                "v",
+                "w",
+                "x",
+                "y",
+                "z"
+            ],
+            "options": [
+                {
+                  "image_src": "ant",
+                  "data-index": "ant",
+                  "first_text":"a",
+                  "remaining_text":"nt"
+                },
+                {
+                    "image_src": "bird",
+                    "data-index": "bird",
+                    "first_text":"b",
+                    "remaining_text":"ird"
+                },
+                {
+                    "image_src": "book",
+                    "data-index": "book",
+                    "first_text":"b",
+                    "remaining_text":"ook"
+                },
+                {
+                    "image_src": "box",
+                    "data-index": "box",
+                    "first_text":"b",
+                    "remaining_text":"ok"
+                },
+                {
+                    "image_src": "doll",
+                    "data-index": "doll",
+                    "first_text":"d",
+                    "remaining_text":"oll"
+                },
+                {
+                    "image_src": "duck",
+                    "data-index": "duck",
+                    "first_text":"d",
+                    "remaining_text":"uck"
+                },
+                {
+                    "image_src": "egg",
+                    "data-index": "egg",
+                    "first_text":"e",
+                    "remaining_text":"gg"
+                },
+                {
+                    "image_src": "fan",
+                    "data-index": "fan",
+                    "first_text":"f",
+                    "remaining_text":"an"
+                },
+                {
+                    "image_src": "fish",
+                    "data-index": "fish",
+                    "first_text":"f",
+                    "remaining_text":"ish"
+                },
+                {
+                    "image_src": "goat",
+                    "data-index": "goat",
+                    "first_text":"g",
+                    "remaining_text":"oat"
+                },
+                {
+                    "image_src": "hen",
+                    "data-index": "hen",
+                    "first_text":"h",
+                    "remaining_text":"en"
+                },
+                {
+                    "image_src": "house",
+                    "data-index": "house",
+                    "first_text":"h",
+                    "remaining_text":"ouse"
+                },
+                {
+                    "image_src": "ink",
+                    "data-index": "ink",
+                    "first_text":"i",
+                    "remaining_text":"nk"
+                },
+                {
+                    "image_src": "jug",
+                    "data-index": "jug",
+                    "first_text":"j",
+                    "remaining_text":"ug"
+                },
+                {
+                    "image_src": "leaf",
+                    "data-index": "leaf",
+                    "first_text":"l",
+                    "remaining_text":"eaf"
+                },
+                {
+                    "image_src": "lock",
+                    "data-index": "lock",
+                    "first_text":"l",
+                    "remaining_text":"ock"
+                },
+                {
+                    "image_src": "mango",
+                    "data-index": "mango",
+                    "first_text":"m",
+                    "remaining_text":"ango"
+                },
+                {
+                    "image_src": "moon",
+                    "data-index": "moon",
+                    "first_text":"m",
+                    "remaining_text":"oon"
+                },
+                {
+                    "image_src": "pan",
+                    "data-index": "pan",
+                    "first_text":"p",
+                    "remaining_text":"an"
+                },
+                {
+                    "image_src": "pear",
+                    "data-index": "pear",
+                    "first_text":"p",
+                    "remaining_text":"ear"
+                },
+                {
+                    "image_src": "pen",
+                    "data-index": "pen",
+                    "first_text":"p",
+                    "remaining_text":"en"
+                },
+                {
+                    "image_src": "pizza",
+                    "data-index": "pizza",
+                    "first_text":"p",
+                    "remaining_text":"izza"
+                },
+                {
+                    "image_src": "rabbit",
+                    "data-index": "rabbit",
+                    "first_text":"r",
+                    "remaining_text":"abbit"
+                },
+                {
+                    "image_src": "ring",
+                    "data-index": "ring",
+                    "first_text":"r",
+                    "remaining_text":"ing"
+                },
+                {
+                    "image_src": "sun",
+                    "data-index": "sun",
+                    "first_text":"s",
+                    "remaining_text":"un"
+                },
+                {
+                    "image_src": "tent",
+                    "data-index": "tent",
+                    "first_text":"t",
+                    "remaining_text":"ent"
+                },
+                {
+                    "image_src": "tiger",
+                    "data-index": "tiger",
+                    "first_text":"t",
+                    "remaining_text":"iger"
+                },
+                {
+                    "image_src": "umbrella",
+                    "data-index": "umbrella",
+                    "first_text":"u",
+                    "remaining_text":"mbrella"
+                },
+                {
+                    "image_src": "wool",
+                    "data-index": "wool",
+                    "first_text":"w",
+                    "remaining_text":"ool"
+                },
+                {
+                    "image_src": "zebra",
+                    "data-index": "zebra",
+                    "first_text":"z",
+                    "remaining_text":"ebra"
+                }
+
+              ],
+            
+            "star": {
+                "mainClass": "star-wrapper",
+                "bgImage": "starBackground",
+                "bgImageClass": "star-background",
+                "defaultImage": "starGray",
+                "completeImage": "starYellow",
+                "starCount": 5
+            },
+            "megaBlast": {
+                "lottie": "stageMergeBlast",
+                "class": "megaBlast"
+            }
+
+        },
+        "feedBackScreen": {
+            "lottieHolder": "star",
+            "lottie": "GameEndHappy",
+            "ribbonLottieHolder": "ribbonLottiediv",
+            "ribbonLottie": "ribbonLottie"
+        }
+    },
+    "transition": "transition",
+    "transitionClass": "transition",
+    "minimumTry": 7
+}

@@ -1,0 +1,332 @@
+{
+    "domElements": {
+        "intro": {
+            "introLottie": "Intro",
+            "introBackground": {
+                "background_image": "titleScreen",
+                "class": "background1",
+                "buttonImage": "playButton",
+                "play_button_class": "play-btn vendorPlayerButtonLocal"
+            }
+        },
+        "activityScreen": {
+            "background": {
+                "image": "shapeScreenBackground",
+                "class": "background1"
+            },
+            "box": {
+                "image": "box",
+                "class": "box-stack",
+                "leftBoxImage": "box",
+                "leftBoxclass": "leftBoxClass"
+            },
+            "openBox": {
+                "secondImage": "openBox2",
+                "secondImageClass": "open-box2",
+                "firstImage": "openBox1",
+                "firstImageClass": "open-box1"
+            },
+            "dropableArea": {
+                "firstDropableClass": "dropable-area1",
+                "secondDropableClass": "dropable-area2"
+            },
+            "star": {
+                "mainClass": "star-wrapper",
+                "bgImage": "starBackground",
+                "bgImageClass": "star-background",
+                "defaultImage": "starGray",
+                "completeImage": "starYellow",
+                "starCount": 6
+            },
+            "table": {
+                "image": "shapeTable",
+                "class": "object-table"
+            },
+            "dropLottie": {
+                "lottie": "starBrust",
+                "class": "dropLottie"
+            },
+            "Rightlottie": {
+                "lottie": "character",
+                "class": "Rightlottie"
+            }
+        },
+        "feedBackScreen": {
+            "lottieHolder": "star",
+            "lottie": "GameEndHappy",
+            "ribbonLottieHolder": "ribbonLottiediv",
+            "ribbonLottie": "ribbonLottie",
+            "buttonHolder": "feedBackButton",
+            "buttonImage": "nextRecapButton",
+            "button_class": "recapButton"
+        },
+        "rightCookieDefaultClass": "rightInBoxCookieDefault",
+        "leftCookieDefaultClass": "leftInBoxCookieDefault",
+        "rightBoxImageCookieDefault": "rightBoxCookies1",
+        "leftBoxImageCookieDefault": "leftBoxCookies1",
+        "recapScreen": {
+            "background": "shapesRecapBg",
+            "backgroundClass": "background1",
+            "recapTextClass": "shapes-recap-text",
+            "recapImageClass": "recap-object-shape",
+            "recapNextButton": "recapNextButton",
+            "recapNextButtonClass": "shape-recap-next",
+            "recapPreviousButton": "recapPreviousButton",
+            "recapPreviousButtonClass": "shape-recap-previous"
+        }
+    },
+    "circle": [{
+            "image": "cookieCircle1",
+            "type": "circle"
+        },
+        {
+            "image": "cookieCircle2",
+            "type": "circle"
+        },
+        {
+            "image": "cookieCircle3",
+            "type": "circle"
+        },
+        {
+            "image": "cookieCircle4",
+            "type": "circle"
+        },
+        {
+            "image": "cookieCircle5",
+            "type": "circle"
+        },
+        {
+            "image": "cookieCircle6",
+            "type": "circle"
+        }
+    ],
+    "diamond": [{
+            "image": "cookieDiamond1",
+            "type": "diamond"
+        },
+        {
+            "image": "cookieDiamond2",
+            "type": "diamond"
+        },
+        {
+            "image": "cookieDiamond3",
+            "type": "diamond"
+        },
+        {
+            "image": "cookieDiamond4",
+            "type": "diamond"
+        },
+        {
+            "image": "cookieDiamond5",
+            "type": "diamond"
+        }
+    ],
+    "semi-circle": [{
+            "image": "cookieHalfCircle1",
+            "type": "semi-circle"
+        },
+        {
+            "image": "cookieHalfCircle2",
+            "type": "semi-circle"
+        },
+        {
+            "image": "cookieHalfCircle3",
+            "type": "semi-circle"
+        },
+        {
+            "image": "cookieHalfCircle4",
+            "type": "semi-circle"
+        },
+        {
+            "image": "cookieHalfCircle5",
+            "type": "semi-circle"
+        }
+    ],
+    "heart": [{
+            "image": "cookieHeart1",
+            "type": "heart"
+        },
+        {
+            "image": "cookieHeart2",
+            "type": "heart"
+        },
+        {
+            "image": "cookieHeart3",
+            "type": "heart"
+        },
+        {
+            "image": "cookieHeart4",
+            "type": "heart"
+        },
+        {
+            "image": "cookieHeart5",
+            "type": "heart"
+        }
+    ],
+    "oval": [{
+            "image": "cookieOval1",
+            "type": "oval"
+        },
+        {
+            "image": "cookieOval2",
+            "type": "oval"
+        },
+        {
+            "image": "cookieOval3",
+            "type": "oval"
+        },
+        {
+            "image": "cookieOval4",
+            "type": "oval"
+        },
+        {
+            "image": "cookieOval5",
+            "type": "oval"
+        }
+    ],
+    "rectangle": [{
+            "image": "cookieRectangle1",
+            "type": "rectangle"
+        },
+        {
+            "image": "cookieRectangle2",
+            "type": "rectangle"
+        },
+        {
+            "image": "cookieRectangle3",
+            "type": "rectangle"
+        },
+        {
+            "image": "cookieRectangle4",
+            "type": "rectangle"
+        },
+        {
+            "image": "cookieRectangle5",
+            "type": "rectangle"
+        }
+    ],
+    "square": [{
+            "image": "cookieSquare1",
+            "type": "square"
+        },
+        {
+            "image": "cookieSquare2",
+            "type": "square"
+        },
+        {
+            "image": "cookieSquare3",
+            "type": "square"
+        },
+        {
+            "image": "cookieSquare4",
+            "type": "square"
+        },
+        {
+            "image": "cookieSquare5",
+            "type": "square"
+        }
+    ],
+    "star": [{
+            "image": "cookieStar1",
+            "type": "star"
+        },
+        {
+            "image": "cookieStar2",
+            "type": "star"
+        },
+        {
+            "image": "cookieStar3",
+            "type": "star"
+        },
+        {
+            "image": "cookieStar4",
+            "type": "star"
+        },
+        {
+            "image": "cookieStar5",
+            "type": "star"
+        }
+    ],
+    "triangle": [{
+            "image": "cookieTriangle1",
+            "type": "triangle"
+        },
+        {
+            "image": "cookieTriangle2",
+            "type": "triangle"
+        },
+        {
+            "image": "cookieTriangle3",
+            "type": "triangle"
+        },
+        {
+            "image": "cookieTriangle4",
+            "type": "triangle"
+        },
+        {
+            "image": "cookieTriangle5",
+            "type": "triangle"
+        }
+    ],
+    "shapeLottie": [{
+            "type": "circle",
+            "div": "circleHolder",
+            "lottie": "circle_expressions",
+            "instance": "circleInstance"
+        },
+        {
+            "type": "diamond",
+            "div": "diamondHolder",
+            "lottie": "diamond_expressions",
+            "instance": "diamondInstance"
+        },
+        {
+            "type": "semi-circle",
+            "div": "semiCircleHolder",
+            "lottie": "semi_circle_expressions",
+            "instance": "semiInstance"
+        },
+        {
+            "type": "heart",
+            "div": "heartHolder",
+            "lottie": "heart_expressions",
+            "instance": "heartInstance"
+        },
+        {
+            "type": "oval",
+            "div": "ovalHolder",
+            "lottie": "oval_expressions",
+            "instance": "ovalInstance"
+        },
+        {
+            "type": "rectangle",
+            "div": "rectangleHolder",
+            "lottie": "rectangle_expressions",
+            "instance": "rectangInstance"
+        },
+        {
+            "type": "square",
+            "div": "squareHolder",
+            "lottie": "square_expressions",
+            "instance": "squareInstance"
+        },
+        {
+            "type": "star",
+            "div": "starHolder",
+            "lottie": "star_expressions",
+            "instance": "starInstance"
+        },
+        {
+            "type": "triangle",
+            "div": "triangleHolder",
+            "lottie": "triangle_expressions",
+            "instance": "triangleInstance"
+        }
+    ],
+    "numberOfShape": 4,
+    "shapes": ["circle", "diamond", "semi-circle", "heart", "oval", "rectangle", "square", "star", "triangle"],
+    "transition": "transition",
+    "transitionClass": "transition",
+    "order_type": "random",
+    "minimumTry": 6
+}

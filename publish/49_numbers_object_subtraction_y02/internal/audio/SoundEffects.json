@@ -1,0 +1,19 @@
+{
+  "src": [
+    "internal/audio/SoundEffects.mp3"
+  ],
+  "sprite": {
+    "Cartoon_fall": [
+      0,
+      1349.591836734694
+    ],
+    "Click-01": [
+      3000,
+      3113.0612244897957
+    ],
+    "DragDrop": [
+      8000,
+      58.16326530612237
+    ]
+  }
+}

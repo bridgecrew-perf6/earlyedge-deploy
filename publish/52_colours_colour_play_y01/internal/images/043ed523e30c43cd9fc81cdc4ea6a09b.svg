@@ -1,0 +1,34 @@
+<svg width="25" height="25" xmlns="http://www.w3.org/2000/svg">
+ <title>Drawing</title>
+ <g>
+  <title>Layer 1</title>
+  <g data-bx-workspace="master" width="24.727959mm" height="24.72831mm" viewBox="0 0 24.727959 24.72831" version="1.1" id="svg7538" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+   <defs id="defs7535">
+    <clipPath clipPathUnits="userSpaceOnUse" id="clipPath7411">
+     <path d="m-404.51059,1192.83081l1920,0l0,-900l-1920,0l0,900z" id="path7409"/>
+    </clipPath>
+   </defs>
+   <g id="layer1">
+    <g id="g7405" transform="matrix(0.352778 0 0 -0.352778 15.4048 338.689)" display="inline">
+     <g id="g7407" clip-path="url(#clipPath7411)">
+      <g id="g7413">
+       <path d="m26.42792,925.0141c0,19.356 -15.691,35.048 -35.048,35.048c-19.356,0 -35.047,-15.692 -35.047,-35.048c0,-19.356 15.691,-35.048 35.047,-35.048c19.357,0 35.048,15.692 35.048,35.048" id="path7415" fill-rule="nonzero" fill="#ffffff"/>
+      </g>
+      <g id="g7417">
+       <path d="m21.01981,925.0141c0,16.369 -13.27,29.639 -29.639,29.639c-16.37,0 -29.64,-13.27 -29.64,-29.639c0,-16.369 13.27,-29.639 29.64,-29.639c16.369,0 29.639,13.27 29.639,29.639" id="path7419" fill-rule="nonzero" fill="#1783cc"/>
+      </g>
+      <g id="g7421">
+       <path d="m18.97211,923.99023c0,15.804 -12.812,28.616 -28.616,28.616c-15.804,0 -28.615,-12.812 -28.615,-28.616c0,-15.804 12.811,-28.616 28.615,-28.616c15.804,0 28.616,12.812 28.616,28.616" id="path7423" fill-rule="nonzero" fill="#074068"/>
+      </g>
+      <g id="g7425">
+       <path d="m18.97211,924.59113c0,15.472 -12.543,28.015 -28.015,28.015c-15.472,0 -28.015,-12.543 -28.015,-28.015c0,-15.472 12.543,-28.015 28.015,-28.015c15.472,0 28.015,12.543 28.015,28.015" id="path7427" fill-rule="nonzero" fill="#08518e"/>
+      </g>
+      <g id="g7429"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <line fill="none" stroke="#fff" x1="7.55" y1="8.9" x2="16.3" y2="15.65" id="svg_2" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line fill="none" x1="7.8" y1="15.4" x2="16.05" y2="9.15" id="svg_4" stroke-linejoin="undefined" stroke-linecap="undefined" stroke="#fff"/>
+ </g>
+</svg>

@@ -1,0 +1,168 @@
+{
+  "domElements": {
+    "feedBackScreen": {
+      "lottieHolder": "star",
+      "lottie": "GameEndHappy",
+      "ribbonLottieHolder": "ribbonLottiediv",
+      "ribbonLottie": "ribbonLottie"
+    },
+    "activityScreen": {
+      "lottieBirds_left": [
+        {
+          "id": 1,
+          "path": "BirdBrown1",
+          "inFrame": [0, 116],
+          "idleFrame": [117, 304],
+          "outFrame": [305, 424]
+        },
+        {
+          "id": 2,
+          "path": "BirdBrown2",
+          "inFrame": [0, 116],
+          "idleFrame": [117, 299],
+          "outFrame": [300, 423]
+        },
+        {
+          "id": 3,
+          "path": "BirdBrown3",
+          "inFrame": [0, 116],
+          "idleFrame": [117, 299],
+          "outFrame": [300, 423]
+        }
+      ],
+      "lottieBirds_right": [
+        {
+          
+          "id": 4,
+          "path": "BirdYellow1",
+          "inFrame": [0, 108],
+          "idleFrame": [112, 260],
+          "outFrame": [265, 384]
+        },
+        {
+          "id": 5,
+          "path": "BirdYellow2",
+          "inFrame": [0, 108],
+          "idleFrame": [112, 260],
+          "outFrame": [265, 384]
+        }
+      ],
+      "audioFile":{
+        "yellowBirds":"46_someYellowBirds.mp3",
+        "blackBirds":"46_intro.mp3",
+        "total":"46_total.mp3",
+        "plus":"46_plus.mp3",
+        "equals":"46_equals.mp3",
+        "clap":"clap.mp3",
+        "tap":"46_tapthecorrectno.mp3",
+        "1":"one.mp3",
+        "2":"two.mp3",
+        "3":"three.mp3",
+        "4":"four.mp3",
+        "5":"five.mp3",
+        "6":"six.mp3",
+        "7":"seven.mp3",
+        "8":"eight.mp3",
+        "9":"nine.mp3",
+        "10":"ten.mp3",
+        "welldone":"welldone.mp3",
+        "howmany_b":"46_howmanyblack.mp3",
+        "howmany_y":"46_howmanyyellow.mp3"
+        
+
+      }
+    }
+  },
+  "yellowBirds": [4, 5],
+  "optionButton": {
+    "leftOptionButton": [
+      {
+        "left": "475px",
+        "bottom": "75px"
+      },
+      {
+        "left": "564px",
+        "bottom": "68px"
+      },
+      {
+        "left": "659px",
+        "bottom": "73px"
+      }
+    ],
+    "rightOptionButton": [
+      {
+        "right": "697px",
+        "bottom": "111px"
+      },
+      {
+        "right": "609px",
+        "bottom": "112px"
+      },
+      {
+        "right": "520px",
+        "bottom": "125px"
+      }
+    ],
+    "centerOptionButton": [
+      {
+        "left": "810px",
+        "bottom": "89px"
+      },
+      {
+        "left": "898px",
+        "bottom": "90px"
+      },
+      {
+        "left": "989px",
+        "bottom": "98px"
+      }
+    ]
+  },
+  "birdsPosition": [
+    {
+      "left": "800px",
+      "top": "215px"
+    },
+    {
+      "left": "900px",
+      "top": "215px"
+    },
+    {
+      "left": "700px",
+      "top": "240px"
+    },
+    {
+      "left": "1000px",
+      "top": "235px"
+    },
+    {
+      "left": "600px",
+      "top": "245px"
+    },
+    {
+      "left": "1100px",
+      "top": "230px"
+    },
+    {
+      "left": "500px",
+      "top": "245px"
+    },
+    {
+      "left": "1200px",
+      "top": "230px"
+    },
+    {
+      "left": "400px",
+      "top": "245px"
+    },
+    {
+      "left": "1300px",
+      "top": "230px"
+    }
+  ],
+  "lottie": {
+    "blast": "Blast",
+    "transition": "Transition",
+    "success": "Success"
+  }
+}

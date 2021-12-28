@@ -1,0 +1,136 @@
+{
+  "domElements": {
+    "loadAnimation": {
+      "divObj": "loadAnimationDiv",
+      "class": "background1",
+      "image_src": "initialBackground",
+      "lottieAnimation": "introLottie",
+      "playButton": {
+        "divObj": "playButton",
+        "class": "playButton  vendorPlayerButtonLocal zindex10 hand",
+        "image_src": "playbutton"
+      }
+    },
+    "feedBackScreen": {
+      "imageHolder": "star",
+      "image": "star",
+      "buttonHolder": "feedBackButton",
+      "buttonImage": "playbutton",
+      "button_class": "play-btn"
+    },
+    "transition": {
+      "class": "transition",
+      "image_src": "transition"
+    },
+    "playBackground": {
+      "class": "background1",
+      "image_src": "activityBg"
+    },
+    "starProgress": {
+      "empty_star_img": "starGray",
+      "fill_star_img": "starYellow",
+      "starBg": "starBackground",
+      "starDiv": [
+        {
+          "divObj": "star1",
+          "class": "star-image1"
+        },
+        {
+          "divObj": "star2",
+          "class": "star-image2"
+        },
+        {
+          "divObj": "star3",
+          "class": "star-image3"
+        },
+        {
+          "divObj": "star4",
+          "class": "star-image4"
+        },
+        {
+          "divObj": "star5",
+          "class": "star-image5"
+        }
+      ]
+    },
+    "cloudAnswers": [
+        {
+          "divObj": "cloud1",
+          "divObj_img": "cloud1_img",
+          "divObj_num": "cloud1_num",
+          "class": "question-cloud-box1",
+          "clickDiv": "clickDiv1",
+          "starLeft":530
+        },
+        {
+          "divObj": "cloud2",
+          "divObj_img": "cloud1_img",
+          "divObj_num": "cloud1_num",
+          "class": "question-cloud-box2",
+          "clickDiv": "clickDiv2",
+          "starLeft":720
+        },
+        {
+          "divObj": "cloud3",
+          "divObj_img": "cloud1_img",
+          "divObj_num": "cloud1_num",
+          "class": "question-cloud-box3 ",
+          "clickDiv": "clickDiv3",
+          "starLeft":910
+        }
+      ],
+      "speedClouds": [
+        {
+          "divObj": "speedCloud1",
+          "img_src": "speedCloudBig",
+          "class": "speedCloud1",
+          "type":"big",
+          "left":290
+        },
+        {
+          "divObj": "speedCloud2",
+          "img_src": "speedCloudBig",
+          "class": "speedCloud2",
+          "type":"big",
+          "left":1214
+        },
+        {
+          "divObj": "speedCloud3",
+          "img_src": "speedCloudSmall",
+          "class": "speedCloud3",
+          "type":"big",
+          "left":1506
+        },
+        {
+          "divObj": "speedCloud4",
+          "img_src": "speedCloudSmall",
+          "class": "speedCloud4",
+          "type":"small",
+          "left":482
+        },
+        {
+          "divObj": "speedCloud5",
+          "img_src": "speedCloudSmall",
+          "class": "speedCloud5",
+          "type":"small",
+          "left":1084
+        }
+      ],
+      "selectPlaneClickDiv":[
+        {
+          "divObj": "selectClickDiv1",
+          "data-index":"greenPlane"
+        },
+        {
+          "divObj": "selectClickDiv2",
+          "data-index":"yellowPlane"
+        },
+        {
+          "divObj": "selectClickDiv3",
+          "data-index":"redPlane"
+        }
+      ]
+  },
+  "totalSequence": 5,
+  "numberImageMapping":["one","two","three","four","five","six","seven","eight","nine"]
+}

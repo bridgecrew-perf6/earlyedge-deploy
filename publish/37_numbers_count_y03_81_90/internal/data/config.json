@@ -1,0 +1,267 @@
+{
+    "domElements": {
+        "intro": {
+            "introBackground": {
+                "background_image": "titleScreen",
+                "class": "background1",
+                "buttonImage": "playButton",
+                "play_button_class": "intro-play-btn vendorPlayerButtonLocal"
+            },
+            "introLottie": "introLottie"
+        },
+        "activityScreen": {
+            "background": {
+                "image": "backgroundImage",
+                "class": "background1"
+            },
+            "basketWithTensCount": {
+                "lottie": "basketWithTensCount",
+                "afterOutSegment": [895, 910],
+                "TurnOnesegments": {
+                    "In": [8, 162],
+                    "Stay": [162, 224],
+                    "Out": [224, 300]
+                },
+                "TurnTwosegments": {
+                    "In": [390, 440],
+                    "Stay": [440, 502],
+                    "Out": [502, 609]
+                },
+                "CakeSegments": {
+                    "In": [609, 701],
+                    "Stay": [702, 812],
+                    "Out": [812, 893]
+                }
+            },
+            "numberIDs": {
+                "characterNumberID": "#text_banner",
+                "computerID": "#computer_text"
+            },
+            "character": {
+                "lottie": "character",
+                "segments": {
+                    "In": [76, 324],
+                    "Stay": [191, 230],
+                    "Out": [326, 456],
+                    "Idle": [231, 324]
+                }
+            },
+            "selectRange": {
+                "numberWrapperClass":"letter-wrapper",
+                "numberTextBlockClass":"letter-text-block",
+                "headingTextClass":"select-range-title",
+                "headingText":"Select a number range.",
+                "selectBackgroundImage":"selectionScreen",
+                "backgroundClass": "background1",
+                "nextButton":"nextButton",
+                "nextButtonClass": "selection-play-btn vendorPlayerButtonLocal",
+                "element": [{
+                        "text": "01 - 20",
+                        "index":0,
+                        "min": 1,
+                        "max": 20
+                    },
+                    {
+                        "text": "21 - 50",
+                        "index":1,
+                        "min": 21,
+                        "max": 50
+                    },
+                    {
+                        "text": "51 - 70",
+                        "index":2,
+                        "min": 51,
+                        "max": 70
+                    },
+                    {
+                        "text": "71 - 100",
+                        "index":3,
+                        "min": 71,
+                        "max": 100
+                    }
+                ]
+            },
+            "eventDiv": {
+                "box": [{
+                        "class": "container-object1",
+                        "boxID": "#packet_1",
+                        "jumpSegments": [162, 173]
+                    },
+                    {
+                        "class": "container-object2",
+                        "boxID": "#packet_2",
+                        "jumpSegments": [174, 185]
+                    },
+                    {
+                        "class": "container-object3",
+                        "boxID": "#packet_3",
+                        "jumpSegments": [186, 197]
+                    },
+                    {
+                        "class": "container-object4",
+                        "boxID": "#packet_4",
+                        "jumpSegments": [198, 209]
+                    },
+                    {
+                        "class": "container-object5",
+                        "boxID": "#packet_5",
+                        "jumpSegments": [210, 221]
+                    },
+                    {
+                        "class": "container-object1",
+                        "boxID": "#packet_6",
+                        "jumpSegments": [440, 451]
+                    },
+                    {
+                        "class": "container-object2",
+                        "boxID": "#packet_7",
+                        "jumpSegments": [452, 463]
+                    },
+                    {
+                        "class": "container-object3",
+                        "boxID": "#packet_8",
+                        "jumpSegments": [464, 475]
+                    },
+                    {
+                        "class": "container-object4",
+                        "boxID": "#packet_9",
+                        "jumpSegments": [476, 487]
+                    },
+                    {
+                        "class": "container-object5",
+                        "boxID": "#packet_10",
+                        "jumpSegments": [488, 499]
+                    }
+                ],
+                "cake": [
+
+
+                    {
+                        "class": "sweet4",
+                        "cakeID": "#sweet_1",
+                        "jumpSegments": [702, 713]
+                    },
+                    {
+                        "class": "sweet7",
+                        "cakeID": "#sweet_2",
+                        "jumpSegments": [714, 725]
+                    },
+                    {
+                        "class": "sweet5",
+                        "cakeID": "#sweet_3",
+                        "jumpSegments": [726, 737]
+                    },
+                    {
+                        "class": "sweet3",
+                        "cakeID": "#sweet_4",
+                        "jumpSegments": [738, 749]
+                    },
+                    {
+                        "class": "sweet9",
+                        "cakeID": "#sweet_5",
+                        "jumpSegments": [750, 761]
+                    },
+                    {
+                        "class": "sweet6",
+                        "cakeID": "#sweet_6",
+                        "jumpSegments": [762, 773]
+                    },
+                    {
+                        "class": "sweet2",
+                        "cakeID": "#sweet_7",
+                        "jumpSegments": [774, 785]
+                    },
+                    {
+                        "class": "sweet1",
+                        "cakeID": "#sweet_8",
+                        "jumpSegments": [786, 797]
+                    },
+                    {
+                        "class": "sweet8",
+                        "cakeID": "#sweet_9",
+                        "jumpSegments": [798, 809]
+                    }
+                ]
+            },
+            "boxContainersImages": [{
+                    "image": "dotContainer1",
+                    "individualSweet": [{
+                            "Image": "dottedBall1"
+                        },
+                        {
+                            "Image": "dottedBall2"
+                        },
+                        {
+                            "Image": "dottedBall3"
+                        }
+                    ]
+                },
+                {
+                    "image": "lineContainer2",
+                    "individualSweet": [{
+                            "Image": "lineBall1"
+                        },
+                        {
+                            "Image": "lineBall2"
+                        },
+                        {
+                            "Image": "lineBall3"
+                        }
+                    ]
+                },
+                {
+                    "image": "ballContainer3",
+                    "individualSweet": [{
+                            "Image": "ball1"
+                        },
+                        {
+                            "Image": "ball2"
+                        },
+                        {
+                            "Image": "ball3"
+                        }
+                    ]
+                },
+                {
+                    "image": "brownContainer4",
+                    "individualSweet": [{
+                            "Image": "brownBall1"
+                        },
+                        {
+                            "Image": "brownBall2"
+                        },
+                        {
+                            "Image": "brownBall3"
+                        }
+                    ]
+                },
+                {
+                    "image": "spiralContainer5",
+                    "individualSweet": [{
+                            "Image": "spiralBall1"
+                        },
+                        {
+                            "Image": "spiralBall2"
+                        },
+                        {
+                            "Image": "spiralBall3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "feedBackScreen": {
+            "lottieHolder": "star",
+            "lottie": "GameEndHappy",
+            "ribbonLottieHolder": "ribbonLottiediv",
+            "ribbonLottie": "ribbonLottie"
+        }
+    },
+    "numbers": {
+        "min": 81,
+        "max": 90
+    },
+    "transition": "transition",
+    "transitionClass": "transition",
+    "minimumTry": 5
+}

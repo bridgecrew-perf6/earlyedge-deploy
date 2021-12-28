@@ -1,0 +1,289 @@
+{
+  "domElements": {
+    "loadAnimation": {
+      "divObj": "loadAnimationDiv",
+      "class": "background1",
+      "image_src": "initialBackground",
+      "lottieAnimation": "introLottie",
+      "playButton": {
+        "divObj": "playButton",
+        "class": "playButton  vendorPlayerButtonLocal zindex10",
+        "image_src": "playbutton"
+      }
+    },
+    "feedBackScreen": {
+      "imageHolder": "star",
+      "image": "star",
+      "buttonHolder": "feedBackButton",
+      "buttonImage": "playbutton",
+      "button_class": "play-btn"
+    },
+    "recapBackGround": {
+      "class": "background1",
+      "image_src": "recapBg"
+    },
+    "transition": {
+      "class": "transition",
+      "image_src": "transition"
+    },
+    "playBackground": {
+      "class": "background1",
+      "image_src": "activityBg"
+    },
+    "chocolateBoxDrop": {
+      "class": "shape-open-box",
+      "image_src": "shape_box_open"
+    },
+    "starProgress": {
+      "empty_star_img": "starGray",
+      "fill_star_img": "starYellow",
+      "starBg": "starBackground",
+      "starDiv": [
+        {
+          "divObj": "star1",
+          "class": "star-image1"
+        },
+        {
+          "divObj": "star2",
+          "class": "star-image2"
+        },
+        {
+          "divObj": "star3",
+          "class": "star-image3"
+        },
+        {
+          "divObj": "star4",
+          "class": "star-image4"
+        },
+        {
+          "divObj": "star5",
+          "class": "star-image5"
+        }
+      ]
+    },
+    "boxStack": {
+      "divObj": "boxStack1",
+      "class": "box-stack1",
+      "image_src": "box"
+    }
+  },
+  "shapeDetailsJson": {
+    "diamond": {
+      "data-index": "diamond",
+      "shape_holder": {
+        "divObj": "diamond_shape_holder",
+        "img_src": "diamond_blank"
+      },
+      "shape": {
+        "divObj": "diamond_shape",
+        "img_src": ""
+      },
+      "varities": [
+        "diamond_white",
+        "diamond_black",
+        "diamond_brown",
+        "diamond_pink"
+      ]
+    },
+    "circle": {
+      "data-index": "circle",
+      "shape_holder": {
+        "divObj": "circle_shape_holder",
+        "img_src": "circle_blank"
+      },
+      "shape": {
+        "divObj": "circle_shape",
+        "img_src": ""
+      },
+      "varities": [
+        "circle_white",
+        "circle_black",
+        "circle_brown",
+        "circle_pink"
+      ]
+    },
+    "heart": {
+      "data-index": "heart",
+      "shape_holder": {
+        "divObj": "heart_shape_holder",
+        "img_src": "heart_blank"
+      },
+      "shape": {
+        "divObj": "heart_shape",
+        "img_src": ""
+      },
+      "varities": [
+        "heart_white",
+        "heart_black",
+        "heart_brown",
+        "heart_pink"
+      ]
+    },
+    "oval": {
+      "data-index": "oval",
+      "shape_holder": {
+        "divObj": "oval_shape_holder",
+        "img_src": "oval_blank"
+      },
+      "shape": {
+        "divObj": "oval_shape",
+        "img_src": ""
+      },
+      "varities": [
+        "oval_white",
+        "oval_black",
+        "oval_brown",
+        "oval_pink"
+      ]
+    },
+    "rectangle": {
+      "data-index": "rectangle",
+      "shape_holder": {
+        "divObj": "rectangle_shape_holder",
+        "img_src": "rectangle_blank"
+      },
+      "shape": {
+        "divObj": "rectangle_shape",
+        "img_src": ""
+      },
+      "varities": [
+        "rectangle_white",
+        "rectangle_black",
+        "rectangle_brown",
+        "rectangle_pink"
+      ]
+    },
+    "triangle": {
+      "data-index": "triangle",
+      "shape_holder": {
+        "divObj": "triangle_shape_holder",
+        "img_src": "triangle_blank"
+      },
+      "shape": {
+        "divObj": "triangle_shape",
+        "img_src": ""
+      },
+      "varities": [
+        "triangle_white",
+        "triangle_black",
+        "triangle_brown",
+        "triangle_pink"
+      ]
+    },
+    "square": {
+      "data-index": "square",
+      "shape_holder": {
+        "divObj": "square_shape_holder",
+        "img_src": "square_blank"
+      },
+      "shape": {
+        "divObj": "square_shape",
+        "img_src": ""
+      },
+      "varities": [
+        "square_white",
+        "square_black",
+        "square_brown",
+        "square_pink"
+      ]
+    },
+    "semiCircle": {
+      "data-index": "semi-circle",
+      "shape_holder": {
+        "divObj": "semiCircle_shape_holder",
+        "img_src": "semi_circle_blank"
+      },
+      "shape": {
+        "divObj": "semiCircle_shape",
+        "img_src": ""
+      },
+      "varities": [
+        "semi_circle_white",
+        "semi_circle_black",
+        "semi_circle_brown",
+        "semi_circle_pink"
+      ]
+    },
+    "star": {
+      "data-index": "star",
+      "shape_holder": {
+        "divObj": "star_shape_holder",
+        "img_src": "star_blank"
+      },
+      "shape": {
+        "divObj": "star_shape",
+        "img_src": ""
+      },
+      "varities": [
+        "star_white",
+        "star_black",
+        "star_brown",
+        "star_pink"
+      ]
+    }
+  },
+  "totalSequence": 5,
+  "chocolatesShapeList": [
+    "diamond",
+    "rectangle",
+    "heart",
+    "triangle",
+    "oval",
+    "circle",
+    "square",
+    "semiCircle",
+    "star"
+  ],
+  "summaryScreen": [
+    {
+      "shape":"circle",
+      "img":"circle_pink"
+    },
+    {
+      "shape":"square",
+      "img":"square_pink"
+    },
+    {
+      "shape":"triangle",
+      "img":"triangle_pink"
+    },
+    {
+      "shape":"heart",
+      "img":"heart_pink"
+
+    },
+    {
+      "shape":"star",
+      "img":"star_pink"
+    },
+    {
+      "shape":"oval",
+      "img":"oval_pink"
+    },
+    {
+      "shape":"diamond",
+      "img":"diamond_pink"
+
+    },
+    {
+      "shape":"rectangle",
+      "img":"rectangle_pink"
+    },
+    {
+      "shape":"semi-circle",
+      "img":"semi_circle_pink"
+    }
+  ],
+  "dropClasses": [
+    "object-blank1",
+    "object-blank2",
+    "object-blank3",
+    "object-blank4"
+  ],
+  "draggableClasses": [
+    "object-shape1",
+    "object-shape2",
+    "object-shape3",
+    "object-shape4"
+  ]
+}

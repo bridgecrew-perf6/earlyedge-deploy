@@ -1,0 +1,245 @@
+{
+    "domElements": {
+        "intro": {
+            "introBackground": {
+                "background_image": "titleScreen",
+                "class": "background1",
+                "buttonImage": "playButton",
+                "play_button_class": "intro-play-btn vendorPlayerButtonLocal"
+            }
+        },
+        "activityScreen": {
+            "background": {
+                "class": "background1"
+            },
+            "timer": {
+                "timerLottie": "timerClock",
+                "timerSegments": [0, 5389],
+                "containerClass": "timer-box"
+            },
+            "frog": {
+                "class": "frog",
+                "segments": {
+                    "idle": [0, 120],
+                    "left": [120, 180],
+                    "right": [180, 240],
+                    "center": [240, 300]
+                }
+            },
+            "tongue": {
+                "lottie": "tongue",
+                "class": "frog-tongue",
+                "inner": "frog-tongue-inner"
+            },
+            "scoreBoard": {
+                "image": "",
+                "class": "score-borad",
+                "containerClass": "score-board",
+                "childContainerClass": "score-black-box",
+                "starBoxRope": "scoreBoxRopeHolder",
+                "starBoxRopeClass": "score-board-box-rope"
+            },
+            "beeList": [{
+                    "lottieHolder": "firstBee",
+                    "lottieClass": "bee-lottie",
+                    "instance": "firstBeeInstance",
+                    "class": "bee-holder"
+                },
+                {
+                    "lottieHolder": "secondBee",
+                    "lottieClass": "bee-lottie",
+                    "instance": "secondBeeInstance",
+                    "class": "bee-holder"
+                },
+                {
+                    "lottieHolder": "thirdBee",
+                    "lottieClass": "bee-lottie",
+                    "instance": "thirdBeeInstance",
+                    "class": "bee-holder"
+                },
+                {
+                    "lottieHolder": "fourBee",
+                    "lottieClass": "bee-lottie",
+                    "instance": "fourBeeInstance",
+                    "class": "bee-holder"
+                },
+                {
+                    "lottieHolder": "fiveBee",
+                    "lottieClass": "bee-lottie",
+                    "instance": "fiveBeeInstance",
+                    "class": "bee-holder"
+                },
+                {
+                    "lottieHolder": "sixBee",
+                    "lottieClass": "bee-lottie",
+                    "instance": "sixBeeInstance",
+                    "class": "bee-holder"
+                },
+                {
+                    "lottieHolder": "sevenBee",
+                    "lottieClass": "bee-lottie",
+                    "instance": "sevenBeeInstance",
+                    "class": "bee-holder"
+                }
+            ]
+        },
+        "feedBackScreen": {
+            "firstLottieHolder": "GameEndSad",
+            "lottieFileFirst": "GameEndSad",
+            "secondLottieHolder": "GameEndScore",
+            "lottieFileSecond": "GameEndScore",
+            "thirdLottieHolder": "success",
+            "lottieFileThird": "success"
+        }
+    },
+    "timer": [{
+            "time": 30,
+            "type": "seconds"
+        },
+        {
+            "time": 1,
+            "type": "minutes"
+        }
+    ],
+    "colors": [{
+            "color": "red",
+            "beeLottie": "bee_red",
+            "rgb": "rgb(227, 51, 11)"
+        },
+        {
+            "color": "blue",
+            "beeLottie": "bee_blue",
+            "rgb": "rgb(14, 74, 237)"
+        },
+        {
+            "color": "yellow",
+            "beeLottie": "bee_yellow",
+            "rgb": "rgb(254, 236, 52)"
+        },
+        {
+            "color": "green",
+            "beeLottie": "bee_green",
+            "rgb": "rgb(36, 219, 15)"
+        },
+        {
+            "color": "orange",
+            "beeLottie": "bee_orange",
+            "rgb": "rgb(250, 95, 52)"
+        },
+        {
+            "color": "white",
+            "beeLottie": "bee_white",
+            "rgb": "rgb(232, 234, 220)"
+        },
+        {
+            "color": "black",
+            "beeLottie": "bee_black",
+            "rgb": "rgb(22, 22, 18)"
+        }
+    ],
+    "screenAssets": [{
+            "colorIndex": 0,
+            "beeLottie": "bee_red",
+            "frogLottie": "frog_red",
+            "titleScreen": "titleScreenRed",
+            "backgroundLottie": "BG_of_Frog_Transparent",
+            "activityBG": "light_activity_background",
+            "activityOverlay": "light_activity_background_overlay",
+            "audio": {
+                "actvity": "Red_Sloggy_is_a_hungry_froggy.mp3",
+                "inactivity": "Tap_a_red_bug.mp3",
+                "landingAudio": "red.mp3"
+            }
+        },
+        {
+            "colorIndex": 1,
+            "beeLottie": "bee_blue",
+            "frogLottie": "frog_blue",
+            "backgroundLottie": "BG_of_Frog_Transparent",
+            "activityBG": "light_activity_background",
+            "activityOverlay": "light_activity_background_overlay",
+            "titleScreen": "titleScreenBlue",
+            "audio": {
+                "actvity": "Blue_Sloggy_is_a_hungry_froggy.mp3",
+                "inactivity": "Tap_a_blue_bug.mp3",
+                "landingAudio": "blue.mp3"
+            }
+        },
+        {
+            "colorIndex": 2,
+            "beeLottie": "bee_yellow",
+            "frogLottie": "frog_yellow",
+            "backgroundLottie": "BG_of_Frog_Transparent",
+            "activityBG": "dark_activity_background",
+            "activityOverlay": "dark_activity_background_overlay",
+            "titleScreen": "titleScreenYellow",
+            "audio": {
+                "actvity": "Yellow_Sloggy_is_a_hungry_froggy.mp3",
+                "inactivity": "Tap_a_yellow_bug.mp3",
+                "landingAudio": "yellow.mp3"
+            }
+        },
+        {
+            "colorIndex": 3,
+            "beeLottie": "bee_green",
+            "frogLottie": "frog_green",
+            "backgroundLottie": "BG_of_Frog_Transparent",
+            "activityBG": "light_activity_background",
+            "activityOverlay": "light_activity_background_overlay",
+            "titleScreen": "titleScreenGreen",
+            "audio": {
+                "actvity": "Green_Sloggy_is_a_hungry_froggy.mp3",
+                "inactivity": "Tap_a_green_bug.mp3",
+                "landingAudio": "green.mp3"
+            }
+        },
+        {
+            "colorIndex": 4,
+            "beeLottie": "bee_orange",
+            "frogLottie": "frog_orange",
+            "backgroundLottie": "BG_of_Frog_Transparent",
+            "activityBG": "light_activity_background",
+            "activityOverlay": "light_activity_background_overlay",
+            "titleScreen": "titleScreenOrange",
+            "audio": {
+                "actvity": "Orange_Sloggy_is_a_hungry_froggy.mp3",
+                "inactivity": "Tap_a_orange_bug.mp3",
+                "landingAudio": "Orange.mp3"
+            }
+        },
+        {
+            "colorIndex": 5,
+            "beeLottie": "bee_white",
+            "frogLottie": "frog_white",
+            "backgroundLottie": "BG_of_Frog_Transparent",
+            "activityBG": "dark_activity_background",
+            "activityOverlay": "dark_activity_background_overlay",
+            "titleScreen": "titleScreenWhite",
+            "audio": {
+                "actvity": "White_Sloggy_is_a_hungry_froggy.mp3",
+                "inactivity": "Tap_a_white_bug.mp3",
+                "landingAudio": "white.mp3"
+            }
+        },
+        {
+            "colorIndex": 6,
+            "beeLottie": "bee_black",
+            "frogLottie": "frog_black",
+            "backgroundLottie": "BG_of_Frog_Transparent",
+            "activityBG": "light_activity_background",
+            "activityOverlay": "light_activity_background_overlay",
+            "titleScreen": "titleScreenBlack",
+            "audio": {
+                "actvity": "Black_Sloggy_is_a_hungry_froggy.mp3",
+                "inactivity": "Tap_a_black_bug.mp3",
+                "landingAudio": "black.mp3"
+            }
+        }
+    ],
+    "beesTop": [270, 285, 300, 315, 330, 355, 360],
+    "frogAndBeeSameColorNo": 4,
+    "frogAndBeeDifColorNo": 3,
+    "globalFrogColor": "red",
+    "transition": "transition",
+    "transitionClass": "transition"
+}

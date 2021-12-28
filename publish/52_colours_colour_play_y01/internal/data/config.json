@@ -1,0 +1,105 @@
+{
+	"domElements": {
+		"fixedBackGround": {
+			"divObj": "fixedBackGround",
+			"mask_src": "backgroundMask",
+			"class": "fixedBackGround"
+		},
+		"feedback": {
+			"lottie": "feedBackStar",
+			"lottieHolder": "feedBackHolder"
+		},
+		"drawingArea": {
+			"divObj": "drawingArea",
+			"drawingLayer": "drawingLayer",
+			"colorHolder": "colorHolder",
+			"arrow": "arrow"
+		},
+		"categories": [
+			{
+				"divObj": "transportCat",
+				"image_src": "transportCat",
+				"class": "transportCat",
+				"color": "#022c68",
+				"x": 414,
+				"startScreenHeight": 690
+			},
+			{
+				"divObj": "fruitCat",
+				"image_src": "fruitCat",
+				"class": "fruitCat",
+				"color": "#741d87",
+				"x": 597,
+				"startScreenHeight": 420
+			},
+			{
+				"divObj": "vegetableCat",
+				"image_src": "vegetableCat",
+				"class": "vegetableCat",
+				"color": "#022c68",
+				"x": 780,
+				"startScreenHeight": 385
+			},
+			{
+				"divObj": "homeCat",
+				"image_src": "homeCat",
+				"class": "homeCat",
+				"color": "#741d87",
+				"x": 963,
+				"startScreenHeight": 385
+			},
+			{
+				"divObj": "schoolCat",
+				"image_src": "schoolCat",
+				"class": "schoolCat",
+				"color": "#022c68",
+				"x": 1146,
+				"startScreenHeight": 420
+			},
+			{
+				"divObj": "animalCat",
+				"image_src": "animalCat",
+				"class": "animalCat",
+				"color": "#741d87",
+				"x": 1329,
+				"startScreenHeight": 690
+			}
+		],
+		"homeButton": "homeButton",
+		"closeButton": "closeButton",
+		"drawingTools": {
+			"pastel": {
+				"active": "pensilActive",
+				"static": "pensilStatic"
+			},
+			"brush": {
+				"active": "brushActive",
+				"static": "brushStatic"
+			},
+			"sketch": {
+				"active": "sketchActive",
+				"static": "sketchStatic"
+			},
+			"eraser": {
+				"active": "eraserActive",
+				"static": "eraserStatic"
+			}
+		},
+		"fruitCat": ["fruit1", "fruit2", "fruit3", "fruit4", "fruit5", "fruit6", "fruit7", "fruit8", "fruit9", "fruit10"],
+		"animalCat": ["animal1", "animal2", "animal3", "animal4", "animal5", "animal6", "animal7", "animal8", "animal9", "animal10"],
+		"homeCat": ["home1", "home2", "home3", "home4", "home5", "home6", "home7", "home8", "home9", "home10"],
+		"schoolCat": ["school1", "school2", "school3", "school4", "school5", "school6", "school7", "school8", "school9", "school10"],
+		"transportCat": ["transport1", "transport2", "transport3", "transport4", "transport5", "transport6", "transport7", "transport8", "transport9", "transport10"],
+		"vegetableCat": ["vegetable1", "vegetable2", "vegetable3", "vegetable4", "vegetable5", "vegetable6", "vegetable7", "vegetable8", "vegetable9", "vegetable10"]
+	},
+	"masks": {
+		"pastel": "pastelMask",
+		"sketch": "sketchPenMask"
+	},
+	"colors": [null, "orange", "yellow", "brown", "black", "green", "blue", "violet", "silver", "gold", "cyan", "magenta", "red"],
+	"introScreen": {
+		"buttonImage": "playButton",
+		"play_button_class": "play-btn",
+		"name_src": "launchTitle" 
+	}
+}

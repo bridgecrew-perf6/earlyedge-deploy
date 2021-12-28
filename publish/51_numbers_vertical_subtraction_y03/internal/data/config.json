@@ -1,0 +1,131 @@
+{
+    "domElements": {
+        "intro": {
+            "introBackground": {
+                "background_image": "titleScreen",
+                "class": "background1",
+                "buttonImage": "playButton",
+                "play_button_class": "intro-play-btn vendorPlayerButtonLocal"
+            }
+        },
+        "activityScreen": {
+            "background": {
+                "image": "backgroundImage",
+                "class": "background1",
+                "treeBrach": "treeBranche",
+                "treeBrachClass": "tree-branch",
+                "treeLeaves": "leaves",
+                "treeLeavesClass": "tree-leaves"
+            },
+            "answerText": {
+                "firstBox": {
+                    "class": "text-block-box1",
+                    "childClass": "answer-text",
+                    "textBGImage": "textBG"
+                },
+                "secondBox": {
+                    "class": "text-block-box2",
+                    "childClass": "answer-text",
+                    "textBGImage": "textBG"
+                },
+                "thirdBox": {
+                    "class": "text-block-box3",
+                    "childClass": "answer-text",
+                    "textBGImage": "textBG"
+                }
+            },
+            "character": {
+                "lottie": "character",
+                "class": "character",
+                "segments": {
+                    "leftIdle": [0, 150],
+                    "jumpFormLeft": [151, 222],
+                    "rightIdle": [222, 372],
+                    "jumpFormRight": [372, 443]
+                }
+            },
+            "monkey": {
+                "lottie": "monkey",
+                "class": "monkey",
+                "smallBoardID": "#small_text",
+                "bigBoardID": {
+                    "firstNumber": "#big_text_top",
+                    "secondNumber": "#big_text_middle",
+                    "thirdNumber": "#big_text_buttom",
+                    "signID": "#minus_sign"
+                },
+                "segments": {
+                    "smallBoardIn": [0, 25],
+                    "smallBoardIdle": [25, 150],
+                    "smallBoardOut": [150, 175],
+                    "BigBoardIn": [175, 200],
+                    "BigBoardIdle": [200, 325],
+                    "BigBoardHappy": [325, 462]
+                }
+            },
+            "progressBar": {
+                "containerClass": "fish-step",
+                "ropeImage": "step_rope_background",
+                "ropeImageClass": "step-rope-background",
+                "childContainerClass": "circle-step-block",
+                "inactiveImage": "step_inactive",
+                "activeImage": "step_active",
+                "inactiveImageClass": "circle-step circle-step",
+                "progressCount": 5
+            },
+            "mango": {
+                "disableImage": "mangoDisable"
+            },
+            "fruits": [{
+                    "image": "mango",
+                    "class": "mango1"
+                },
+                {
+                    "image": "mango",
+                    "class": "mango2"
+                },
+                {
+                    "image": "mango",
+                    "class": "mango3"
+                },
+                {
+                    "image": "mango",
+                    "class": "mango4"
+                },
+                {
+                    "image": "mango",
+                    "class": "mango5"
+                },
+                {
+                    "image": "mango",
+                    "class": "mango6"
+                },
+                {
+                    "image": "mango",
+                    "class": "mango7"
+                },
+                {
+                    "image": "mango",
+                    "class": "mango8"
+                },
+                {
+                    "image": "mango",
+                    "class": "mango9"
+                }
+            ]
+        },
+        "feedBackScreen": {
+            "lottieHolder": "star",
+            "lottie": "GameEndHappy",
+            "ribbonLottieHolder": "ribbonLottiediv",
+            "ribbonLottie": "ribbonLottie"
+        }
+    },
+    "numbers": {
+        "min": 2,
+        "max": 9
+    },
+    "transition": "transition",
+    "transitionClass": "transition",
+    "minimumTry": 5
+}

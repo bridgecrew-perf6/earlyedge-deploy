@@ -1,0 +1,272 @@
+{
+    "domElements": {
+        "intro": {
+            "introBackground": {
+                "background_image": "titleScreen",
+                "class": "background1",
+                "buttonImage": "playButton",
+                "play_button_class": "intro-play-btn vendorPlayerButtonLocal"
+            }
+        },
+        "activityScreen": {
+            "background": {
+                "image": "backgroundImage",
+                "class": "background1"
+            },
+            "tree": {
+                "image": "tree",
+                "class": "overlap-tree"
+            },
+            "frame": {
+                "lottie": "frameLottie",
+                "segments": {
+                    "In": [0, 98],
+                    "Stay": [99, 108],
+                    "Out": [109, 193]
+                    
+                }
+            },
+            "character": {
+                "lottie": "characterLottie",
+                "characterBlastLottie": "characterBlast",
+                "segmentCommon": {
+                    "appearance": [0, 167],
+                    "idle": [168, 289]
+                },
+                "segments": [{
+                        "correct": [401, 513],
+                        "wrong": [708, 778],
+                        "divObj": "red",
+                        "class": "object1",
+                        "classBlast": "objectBlast1",
+                        "blastLottie": "redBlast_lottie"
+                    },
+                    {
+                        "correct": [514, 635],
+                        "wrong": [779, 849],
+                        "divObj": "green",
+                        "class": "object2",
+                        "classBlast": "objectBlast2",
+                        "blastLottie": "greenBlast_lottie"
+
+                    },
+                    {
+                        "correct": [291, 400],
+                        "wrong": [636, 707],
+                        "divObj": "yellow",
+                        "class": "object3",
+                        "classBlast": "objectBlast3",
+                        "blastLottie": "yellowBlast_lottie"
+                    }
+
+                ]
+            },
+            "alphabets": ["a",
+                "b",
+                "c",
+                "d",
+                "e",
+                "f",
+                "g",
+                "h",
+                "i",
+                "j",
+                "k",
+                "l",
+                "m",
+                "n",
+                "o",
+                "p",
+                "q",
+                "r",
+                "s",
+                "t",
+                "u",
+                "v",
+                "w",
+                "x",
+                "y",
+                "z"
+            ],
+            "options": [
+                {
+                  "image_src": "pen",
+                  "data-index": "pen",
+                  "first_text":"p",
+                  "second_text":"e",
+                  "last_text":"n"
+                },
+                {
+                    "image_src": "pig",
+                    "data-index": "pig",
+                    "first_text":"p",
+                    "second_text":"i",
+                    "last_text":"g"
+                },
+                {
+                    "image_src": "cup",
+                    "data-index": "cup",
+                    "first_text":"c",
+                    "second_text":"u",
+                    "last_text":"p"
+                },
+                {
+                    "image_src": "bus",
+                    "data-index": "bus",
+                    "first_text":"b",
+                    "second_text":"u",
+                    "last_text":"s"
+                },
+                {
+                    "image_src": "bag",
+                    "data-index": "bag",
+                    "first_text":"b",
+                    "second_text":"a",
+                    "last_text":"g"
+                },
+                {
+                    "image_src": "box",
+                    "data-index": "box",
+                    "first_text":"b",
+                    "second_text":"o",
+                    "last_text":"x"
+                },
+                {
+                    "image_src": "cat",
+                    "data-index": "cat",
+                    "first_text":"c",
+                    "second_text":"a",
+                    "last_text":"t"
+                },
+                {
+                    "image_src": "tap",
+                    "data-index": "tap",
+                    "first_text":"t",
+                    "second_text":"a",
+                    "last_text":"p"
+                },
+                {
+                    "image_src": "hat",
+                    "data-index": "hat",
+                    "first_text":"h",
+                    "second_text":"a",
+                    "last_text":"t"
+                },
+                {
+                    "image_src": "bug",
+                    "data-index": "bug",
+                    "first_text":"b",
+                    "second_text":"u",
+                    "last_text":"g"
+                },
+                {
+                    "image_src": "sun",
+                    "data-index": "sun",
+                    "first_text":"s",
+                    "second_text":"u",
+                    "last_text":"n"
+                },
+                {
+                    "image_src": "pan",
+                    "data-index": "pan",
+                    "first_text":"p",
+                    "second_text":"a",
+                    "last_text":"n"
+                },
+                {
+                    "image_src": "bed",
+                    "data-index": "bed",
+                    "first_text":"b",
+                    "second_text":"e",
+                    "last_text":"d"
+                },
+                {
+                    "image_src": "tub",
+                    "data-index": "tub",
+                    "first_text":"t",
+                    "second_text":"u",
+                    "last_text":"b"
+                },
+                {
+                    "image_src": "top",
+                    "data-index": "top",
+                    "first_text":"t",
+                    "second_text":"o",
+                    "last_text":"p"
+                },
+                {
+                    "image_src": "mug",
+                    "data-index": "mug",
+                    "first_text":"m",
+                    "second_text":"u",
+                    "last_text":"g"
+                },
+                {
+                    "image_src": "lip",
+                    "data-index": "lip",
+                    "first_text":"l",
+                    "second_text":"i",
+                    "last_text":"p"
+                },
+                {
+                    "image_src": "jam",
+                    "data-index": "jam",
+                    "first_text":"j",
+                    "second_text":"a",
+                    "last_text":"m"
+                },
+                {
+                    "image_src": "hen",
+                    "data-index": "hen",
+                    "first_text":"h",
+                    "second_text":"e",
+                    "last_text":"n"
+                },
+                {
+                    "image_src": "red",
+                    "data-index": "red",
+                    "first_text":"r",
+                    "second_text":"e",
+                    "last_text":"d"
+                },
+                {
+                    "image_src": "bat",
+                    "data-index": "bat",
+                    "first_text":"b",
+                    "second_text":"a",
+                    "last_text":"t"
+                },
+                {
+                    "image_src": "leg",
+                    "data-index": "leg",
+                    "first_text":"l",
+                    "second_text":"e",
+                    "last_text":"g"
+                }
+
+              ],
+            "star": {
+                "mainClass": "star-wrapper",
+                "bgImage": "starBackground",
+                "bgImageClass": "star-background",
+                "defaultImage": "starGray",
+                "completeImage": "starYellow",
+                "starCount": 5
+            },
+            "megaBlast": {
+                "lottie": "stageMergeBlast",
+                "class": "megaBlast"
+            }
+
+        },
+        "feedBackScreen": {
+            "lottieHolder": "star",
+            "lottie": "GameEndHappy",
+            "ribbonLottieHolder": "ribbonLottiediv",
+            "ribbonLottie": "ribbonLottie"
+        }
+    },
+    "transition": "transition",
+    "transitionClass": "transition",
+    "minimumTry": 7
+}

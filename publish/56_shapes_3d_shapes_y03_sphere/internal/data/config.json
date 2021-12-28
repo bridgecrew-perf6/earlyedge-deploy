@@ -1,0 +1,79 @@
+{
+    "domElements": {
+        "intro": {
+            "introBackground": {
+                "background_image": "titleScreen",
+                "class": "background1",
+                "buttonImage": "playButton",
+                "play_button_class": "title-play-btn vendorPlayerButtonLocal"
+            }
+        },
+        "activityScreen": {
+            "selectionBg": {
+                "image": "selectionBg",
+                "class": "background-image",
+                "nextButton": "nextButton",
+                "nextButtonClass": "next-button vendorPlayerButtonLocal"
+            },
+            "background": {
+                "image": "houseBg",
+                "class": "background-image",
+                "tableBg": "tableBg",
+                "tableBgClass": "table-bg",
+                "objectDroppableArea": "object-droppable-area",
+                "objectHolderBg": "object-holder-background",
+                "shapeObject": "shape-object"
+            },
+            "gameBlockSphere" : [
+                {
+                    "image": "sphereImg",
+                    "imageActive": "sphereActiveImg",
+                    "val": "sphere",
+                    "class": "shape-slection-block1",
+                    "shapeLottie": "sphereBg",
+                    "shapeData" : ["sphere1", "sphere2", "sphere3", "sphere4", "sphere5", "sphere6", "sphere7", "sphere8"]
+                }],
+            "gameBlockCone" : [   
+                {
+                    "image": "coneImg",
+                    "imageActive": "coneActiveImg",
+                    "val": "cone",
+                    "class": "shape-slection-block2",
+                    "shapeLottie": "coneBg",
+                    "shapeData" : ["cone1", "cone2", "cone3", "cone4", "cone5", "cone6"]
+                }],
+            "gameBlockCube" : [
+                {
+                    "image": "cubeImg",
+                    "imageActive": "cubeActiveImg",
+                    "val": "cube",
+                    "class": "shape-slection-block4",
+                    "shapeLottie": "cubeBg",
+                    "shapeData" : ["cube1", "cube2", "cube3", "cube4", "cube5", "cube6", "cube7", "cube8"]
+                }],
+            "gameBlockCylinder":[    
+                {
+                    "image": "cylinderImg",
+                    "imageActive": "cylinderActiveImg",
+                    "val": "cylinder",
+                    "class": "shape-slection-block5",
+                    "shapeLottie": "cylinderBg",
+                    "shapeData" : ["cylinder1", "cylinder2", "cylinder3", "cylinder4", "cylinder5", "cylinder6", "cylinder7", "cylinder8", "cylinder9", "cylinder10"]
+                }
+            ]
+        },
+        "feedBackScreen": {
+            "lottieHolder": "star",
+            "lottie": "GameEndHappy",
+            "ribbonLottieHolder": "ribbonLottiediv",
+            "ribbonLottie": "ribbonLottie",
+            "buttonHolder": "feedBackButton",
+            "buttonImage": "nextRecapButton",
+            "button_class": "recapButton vendorPlayerButtonLocal"
+        }
+    },
+    "minimumTry":5,
+    "gameType":"sphere",
+    "transition": "transition",
+    "transitionClass": "transition"
+}

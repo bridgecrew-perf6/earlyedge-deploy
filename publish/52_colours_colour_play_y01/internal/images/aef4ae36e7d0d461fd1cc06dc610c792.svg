@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="24.727959mm"
+   height="24.72831mm"
+   viewBox="0 0 24.727959 24.72831"
+   version="1.1"
+   id="svg7538"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="home_icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7540"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.52382155"
+     inkscape:cx="-144.13305"
+     inkscape:cy="169.90519"
+     inkscape:window-width="1312"
+     inkscape:window-height="810"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs7535">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7411">
+      <path
+         d="M 0,900 H 1920 V 0 H 0 Z"
+         id="path7409" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-142.70235,-103.30421)">
+    <g
+       id="g7405"
+       style="display:inline"
+       transform="matrix(0.35277777,0,0,-0.35277777,15.404782,338.68858)">
+      <g
+         id="g7407"
+         clip-path="url(#clipPath7411)">
+        <g
+           id="g7413"
+           transform="translate(430.9385,632.1833)">
+          <path
+             d="m 0,0 c 0,19.356 -15.691,35.048 -35.048,35.048 -19.356,0 -35.047,-15.692 -35.047,-35.048 0,-19.356 15.691,-35.048 35.047,-35.048 C -15.691,-35.048 0,-19.356 0,0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path7415" />
+        </g>
+        <g
+           id="g7417"
+           transform="translate(425.5304,632.1833)">
+          <path
+             d="m 0,0 c 0,16.369 -13.27,29.639 -29.639,29.639 -16.37,0 -29.64,-13.27 -29.64,-29.639 0,-16.369 13.27,-29.639 29.64,-29.639 C -13.27,-29.639 0,-16.369 0,0"
+             style="fill:#1783cc;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path7419" />
+        </g>
+        <g
+           id="g7421"
+           transform="translate(423.4827,631.1594)">
+          <path
+             d="M 0,0 C 0,15.804 -12.812,28.616 -28.616,28.616 -44.42,28.616 -57.231,15.804 -57.231,0 c 0,-15.804 12.811,-28.616 28.615,-28.616 C -12.812,-28.616 0,-15.804 0,0"
+             style="fill:#074068;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path7423" />
+        </g>
+        <g
+           id="g7425"
+           transform="translate(423.4827,631.7603)">
+          <path
+             d="M 0,0 C 0,15.472 -12.543,28.015 -28.015,28.015 -43.487,28.015 -56.03,15.472 -56.03,0 c 0,-15.472 12.543,-28.015 28.015,-28.015 C -12.543,-28.015 0,-15.472 0,0"
+             style="fill:#08518e;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path7427" />
+        </g>
+        <g
+           id="g7429"
+           transform="translate(395.2727,645.3582)">
+          <path
+             d="m 0,0 h 1.235 c 0.585,-0.457 1.224,-0.86 1.749,-1.379 3.158,-3.123 6.299,-6.264 9.423,-9.423 0.519,-0.524 0.922,-1.163 1.379,-1.749 v -1.235 c -0.54,-1.191 -1.437,-1.876 -2.843,-1.845 0,-2.639 0.021,-5.17 -0.006,-7.7 -0.02,-1.87 -1.158,-2.976 -3.036,-3.002 -1.199,-0.017 -2.399,0.02 -3.597,-0.011 -0.838,-0.022 -1.185,0.354 -1.174,1.169 0.016,1.267 0.003,2.535 0.003,3.802 0,3.345 0,3.345 -3.327,3.292 -1.326,-0.021 -1.696,-0.385 -1.704,-1.726 -0.01,-1.781 -0.006,-3.562 -0.002,-5.344 0.002,-0.653 -0.155,-1.178 -0.943,-1.18 -1.438,-0.005 -2.88,-0.054 -4.314,0.03 -1.42,0.083 -2.457,1.208 -2.532,2.637 -0.049,0.922 -0.022,1.849 -0.024,2.773 -0.002,1.735 0,3.469 0,5.239 -1.344,0.08 -2.32,0.543 -2.718,1.797 -0.409,1.287 0.312,2.133 1.147,2.963 3.185,3.161 6.342,6.349 9.532,9.505 C -1.226,-0.866 -0.587,-0.459 0,0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path7431" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

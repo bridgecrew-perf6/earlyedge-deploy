@@ -1,0 +1,329 @@
+{
+	"introScreen": {
+		"background": "bg",
+		"buttonImage": "launchButton"
+	},
+	"activityScreen": {
+		"background": "background",
+		"alphabetVoiceMap": {
+			"क": "ka",
+			"ख": "kha",
+			"ग": "ga",
+			"घ": "gha",
+			"त्र": "nya",
+
+			"च": "cha",
+			"छ": "chha",
+			"ज": "ja",
+			"झ": "jha",
+			
+			"ट": "ta",
+			"ठ": "tha",
+			"ड": "da",
+			"ढ": "dha",
+			
+			"त": "ta2",
+			"थ": "tha2",
+			"द": "da2",
+			"ध": "dha2",
+			"न": "na",
+			
+			"प": "pa",
+			"फ": "pha",
+			"ब": "ba",
+			"भ": "bha",
+			"म": "ma",
+			
+			"य": "ya",
+			"र": "ra",
+			"ल": "la",
+			"व": "va",
+			"श": "sha",
+			
+			"क्ष": "ksha",
+			"स": "sa",
+			"ह": "ha",
+			"ष": "ksha2",
+			"श्र": "shra"
+		},
+		"alphabetRows": [["क","ख","ग","घ","त्र","च"],["छ","ज","झ","ट","ठ","ड"],["ढ","त","थ","द","ध","न"],["प","फ","ब","भ","म","य"],["र","ल","व","श","क्ष","स"],["ह","ष","श्र"]],
+    "stoneLotties": ["Stone_1", "Stone_2", "Stone_3"],
+    "images": {
+      	"bg": "bg",
+      	"cart": "cart",
+      	"hammer": "hammer",
+      	"wall": "wall"
+    	},
+		"alphabetObjects": {
+			"क": {
+				"ककड़ी": "cucumber",
+				"कचरा": "sweepings",
+				"कछुआ": "turtle",
+				"कटोरा": "metal_bowl",
+				"कढ़ाई": "embroidery",
+				"कबूतर": "pigeon",
+				"कमल": "lotu",
+				"कलम": "pen"
+			},
+			"क्ष": {
+				"क्षति": "injury",
+				"क्षत्रिय": "a_man_or_member_of_the_Kshatriya_class_or_warrior_class",
+				"क्षमा": "pardon"
+			},
+			"ख": {
+				"खच्चर": "mule",
+				"खजाना": "treasure",
+				"खटमल": "bed_bug",
+				"खत": "letter",
+				"खरगोश": "hare",
+				"खाट": "bedstead"
+			},
+			"ग": {
+				"गठरी": "bundle",
+				"गधा": "ass",
+				"गन्ने": "Cane",
+				"गमला": "earthen_flowerpot",
+				"गरदन": "neck",
+				"गर्मी": "heat",
+				"गहना": "ornament"
+			},
+			"घ": {
+				"घंटी": "tiny_bell",
+				"घड़ा": "earthen_waterpot",
+				"घड़ियाल": "gong",
+				"घड़ी": "watch",
+				"घर": "house",
+				"घोड़ा": "horse"
+			},
+			"च": {
+				"चकला": "a_circular_wooden_or_stony_disc_for_rolling_dough_into_a_bread",
+				"चट्टान": "rock",
+				"चप्पल": "sandal",
+				"चम्मच": "spoon",
+				"चरखा": "wheel",
+				"चाभी": "key",
+				"चावल": "rice_cleared_of_the_husk",
+				"चींटी": "ant"
+			},
+			"छ": {
+				"छड़ी": "stick",
+				"छत": "roof",
+				"छह": "six",
+				"छाता": "umbrella",
+				"छात्र": "pupil",
+				"छिपकली": "lizard"
+			},
+			"ज": {
+				"जंगल": "jungle",
+				"जलेबी": "jalebee",
+				"जहाज": "ship",
+				"जानवर": "living_being",
+				"जामुन": "jambu_fruit_and_tree",
+				"जीभ": "tongue_organ",
+				"जेब": "pocket"
+			},
+			"झ": {
+				"झंडा": "flag",
+				"झरना": "spring",
+				"झाड़ू": "broom",
+				"झील": "lake",
+				"झुमका": "the_bell_shaped_pendant_of_an_ear_ring",
+				"झूला": "swing",
+				"झोपड़ी": "hut"
+			},
+			"ट": {
+				"टन": "ton",
+				"टमाटर": "tomato",
+				"टाँग": "leg",
+				"टिकट": "Ticket",
+				"टोकरी": "a_small_basket_without_lid_or_cover",
+				"टोपी": "cap"
+			},
+			"ठ": {
+				"ठंड": "cold",
+				"ठग": "cheat",
+				"ठहरो": "wait",
+				"ठीक": "Ok",
+				"ठेकेदार": "contractor",
+				"ठेला": "truck"
+			},
+			"ड": {
+				"डंडा": "staff",
+				"डाकिया": "postman",
+				"डाल": "branch",
+				"डाली": "branch_of_a_tree",
+				"डिब्बा": "box",
+				"डॉक्टर": "doctor"
+			},
+			"ढ": {
+				"ढक्कन": "lid",
+				"ढफली": "sloping",
+				"ढाल": "slope",
+				"ढोल": "drum",
+				"ढोलाक": "drum2"
+			},
+			"त": {
+				"तकिया": "head_rest",
+				"तबला": "tabor",
+				"तरबूज़": "watermelon",
+				"तलवार": "sword",
+				"ताला": "lock",
+				"तालाब": "tank",
+				"तौलिया": "towel"
+			},
+			"त्र": {
+				"त्रिभुज": "triangle",
+				"त्रिशूल": "trident"
+			},
+			"थ": {
+				"थरमस": "thermos",
+				"थाकान": "thakan",
+				"थानेदार": "officer_in_charge_of_a_police_station_usually_a_sub_inspector_of_police",
+				"थाली": "a_small_flat_metal_plate_or_platter",
+				"थैली": "small_bag"
+			},
+			"द": {
+				"दरवाज़ा": "The_door",
+				"दराज़": "drawers_of_an_almirah_or_table",
+				"दर्जी": "tailor",
+				"दर्पण": "conceiting",
+				"दवात": "inkpot",
+				"दस": "the_numerical_figure_ten",
+				"दही": "curd",
+				"दाँत": "tooth"
+			},
+			"ध": {
+				"धन": "wealth",
+				"धनिया": "coriander_plant_and_its_seed",
+				"धनुष": "bow",
+				"धागा": "thread",
+				"धूप": "sunshine",
+				"धोती": "loin_cloth",
+				"धोबी": "washerman"
+			},
+			"न": {
+				"नक्शा": "map",
+				"नमक": "salt",
+				"नल": "water_tap",
+				"नाखून": "finger_nail",
+				"नाचना": "to_dance",
+				"नाव": "boat",
+				"नीबू": "lemon"
+			},
+			"प": {
+				"पँख": "scab",
+				"पंजे": "Claws",
+				"पतंग": "paper_kite",
+				"पत्ती": "small_leaf",
+				"पत्‍थर": "stone",
+				"परछाई": "image",
+				"पलंग": "bed",
+				"पहाड़": "mountain"
+			},
+			"फ": {
+				"फल": "fruit",
+				"फसल": "harvest",
+				"फावड़ा": "spade",
+				"फूल": "flower",
+				"फूलगोभी": "cauliflower"
+			},
+			"ब": {
+				"बंदगोभी": "cabbage",
+				"बंदर": "monkey",
+				"बकरी": "goat",
+				"बगुला": "heron",
+				"बटन": "button",
+				"बरतन": "utensil"
+			},
+			"भ": {
+				"भँवरा": "black_bee",
+				"भिखारी": "beggar",
+				"भूरा": "brown",
+				"भेड़िया": "wolf",
+				"भैंस": "female_buffalo",
+				"भोजन": "meals"
+			},
+			"म": {
+				"मकड़ी": "spider",
+				"मकान": "House",
+				"मक्खन": "butter",
+				"मक्खी": "fly",
+				"मच्छर": "mosquito",
+				"मछली": "fish",
+				"मिठाई": "sweetmeat"
+			},
+			"य": {
+				"यंत्र": "machine",
+				"यात्री": "traveller",
+				"यान": "carriage",
+				"युवक": "youth",
+				"योग": "total",
+				"योगी": "yogi"
+			},
+			"र": {
+				"रजाई": "quilt",
+				"रस्सी": "rope",
+				"राखी": "a_colourful_thread_to_be_tied_on_the_wrist_of_a_brother_by_his_sister",
+				"रिक्‍शा": "rickshaw",
+				"रुई": "cotton",
+				"रुपया": "rupee_so_called_because_it_was_originally_made_of_silver",
+				"रूमाल": "handkerchief",
+				"रोटी": "bread"
+			},
+			"ल": {
+				"लंगूर": "a_long_tailed_black_faced_monkey",
+				"लकड़ी": "wood",
+				"लड़का": "boy",
+				"लड़की": "The_girl",
+				"लड्डू": "a_ball_like_Indian_sweet_meat",
+				"लाठी": "long_steff",
+				"लाल": "ruby"
+			},
+			"व": {
+				"वस्त्र": "cloth",
+				"विमान": "measuring",
+				"वीणा": "lyre",
+				"वृक्ष": "tree"
+			},
+			"श": {
+				"शंख": "shell",
+				"शतरंज": "che",
+				"शहद": "honey",
+				"शहनाई": "a_kind_of_musical_pipe",
+				"शीशा": "gla",
+				"शेर": "couplet"
+			},
+			"श्र": {
+				"श्रमिक": "labourer",
+				"श्रवण": "hearing"
+			},
+			"ष": {
+				"षटकोण": "hexagon"
+			},
+			"स": {
+				"साँप": "snake",
+				"साइकिल": "bicycle",
+				"साड़ी": "saree",
+				"साबुन": "soap",
+				"सिक्‍का": "coin",
+				"सितार": "to_play_sitar"
+			},
+			"ह": {
+				"हंस": "swan",
+				"हलवाई": "confectioner",
+				"हवेली": "a_large_spacious_building",
+				"हांथी": "handiwork",
+				"हाथ": "hand",
+				"हार": "defeat",
+				"हिरन": "deer",
+				"हीरा": "diamond"
+			}
+		},
+    "feedBackScreen": {
+      "lottieHolder": "star",
+      "lottie": "Game_end_happy",
+      "ribbonLottieHolder": "ribbonLottiediv",
+      "ribbonLottie": "ribbon"
+    }
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"domElements": {
+		"background": {
+			"divObj": "background",
+			"class": "background"
+		},
+		"teddy": {
+			"divObj": "teddy",
+			"class": "teddy"
+		},
+		"curtain": {
+			"divObj": "curtain",
+			"class": "curtain"
+		},
+		"window": {
+			"divObj": "window",
+			"class": "window"
+		},
+		"triangles": {
+			"divObj": "triangles",
+			"class": "triangles"
+		},
+		"line": {
+			"fill": "#fff"
+		},
+		"grid": {
+			"class": "grid",
+			"verticalPoints": 6,
+			"horizontalPoints": 8,
+			"position": {
+				"x": 300,
+				"y": 100
+			},
+			"fill": "#fff",
+			"stroke": "grey",
+			"spacing": 90,
+			"gridDot": {
+				"radius": 5,
+				"snapRadius": 8,
+				"class": "gridDot",
+				"snapClass": "dotSnap",
+				"backgroundColor": "#fff"
+			}
+		}
+	},
+	"shapeFill": "red",
+	"activityShape": "triangle"
+}
